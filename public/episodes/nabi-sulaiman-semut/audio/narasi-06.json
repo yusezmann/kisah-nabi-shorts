@@ -1,0 +1,69 @@
+{
+ "hash": "12d0f7474864",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 5.094,
+ "text": "Nabi Sulaiman *tersenyum* mendengar perkataan semut itu, lalu beliau berdoa:",
+ "spoken": "Nabi Sulaiman tersenyum mendengar perkataan semut itu, lalu beliau berdoa:",
+ "words": [
+  {
+   "text": "Nabi",
+   "highlight": false,
+   "start": 0.113,
+   "end": 0.375
+  },
+  {
+   "text": "Sulaiman",
+   "highlight": false,
+   "start": 0.375,
+   "end": 0.838
+  },
+  {
+   "text": "tersenyum",
+   "highlight": true,
+   "start": 0.838,
+   "end": 1.25
+  },
+  {
+   "text": "mendengar",
+   "highlight": false,
+   "start": 1.25,
+   "end": 1.575
+  },
+  {
+   "text": "perkataan",
+   "highlight": false,
+   "start": 1.575,
+   "end": 2.013
+  },
+  {
+   "text": "semut",
+   "highlight": false,
+   "start": 2.013,
+   "end": 2.263
+  },
+  {
+   "text": "itu,",
+   "highlight": false,
+   "start": 2.263,
+   "end": 2.725
+  },
+  {
+   "text": "lalu",
+   "highlight": false,
+   "start": 3.025,
+   "end": 3.3
+  },
+  {
+   "text": "beliau",
+   "highlight": false,
+   "start": 3.3,
+   "end": 3.612
+  },
+  {
+   "text": "berdoa:",
+   "highlight": false,
+   "start": 3.612,
+   "end": 4.225
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "hash": "7bb50016f5ed",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 7.105,
+ "text": "Allah *menerima taubat* mereka, lalu keduanya diturunkan ke bumi. Jangan ragu kembali kepada-Nya.",
+ "spoken": "Allah menerima taubat mereka, lalu keduanya diturunkan ke bumi. Jangan ragu kembali kepada-Nya.",
+ "words": [
+  {
+   "text": "Allah",
+   "highlight": false,
+   "start": 0.1,
+   "end": 0.387
+  },
+  {
+   "text": "menerima",
+   "highlight": true,
+   "start": 0.388,
+   "end": 0.738
+  },
+  {
+   "text": "taubat",
+   "highlight": true,
+   "start": 0.738,
+   "end": 1.05
+  },
+  {
+   "text": "mereka,",
+   "highlight": false,
+   "start": 1.05,
+   "end": 1.6
+  },
+  {
+   "text": "lalu",
+   "highlight": false,
+   "start": 1.913,
+   "end": 2.163
+  },
+  {
+   "text": "keduanya",
+   "highlight": false,
+   "start": 2.163,
+   "end": 2.575
+  },
+  {
+   "text": "diturunkan",
+   "highlight": false,
+   "start": 2.575,
+   "end": 3.075
+  },
+  {
+   "text": "ke",
+   "highlight": false,
+   "start": 3.075,
+   "end": 3.15
+  },
+  {
+   "text": "bumi.",
+   "highlight": false,
+   "start": 3.15,
+   "end": 3.612
+  },
+  {
+   "text": "Jangan",
+   "highlight": false,
+   "start": 4.45,
+   "end": 4.85
+  },
+  {
+   "text": "ragu",
+   "highlight": false,
+   "start": 4.85,
+   "end": 5.162
+  },
+  {
+   "text": "kembali",
+   "highlight": false,
+   "start": 5.162,
+   "end": 5.487
+  },
+  {
+   "text": "kepada-Nya.",
+   "highlight": false,
+   "start": 5.487,
+   "end": 6.2
+  }
+ ]
+}

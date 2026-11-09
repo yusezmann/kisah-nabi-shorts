@@ -1,0 +1,75 @@
+{
+ "hash": "de4864566d70",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 6.844,
+ "text": "Allah *menyelamatkan* beliau, dan kaumnya akhirnya beriman. Jangan pernah berhenti berdoa.",
+ "spoken": "Allah menyelamatkan beliau, dan kaumnya akhirnya beriman. Jangan pernah berhenti berdoa.",
+ "words": [
+  {
+   "text": "Allah",
+   "highlight": false,
+   "start": 0.1,
+   "end": 0.387
+  },
+  {
+   "text": "menyelamatkan",
+   "highlight": true,
+   "start": 0.388,
+   "end": 0.925
+  },
+  {
+   "text": "beliau,",
+   "highlight": false,
+   "start": 0.925,
+   "end": 1.5
+  },
+  {
+   "text": "dan",
+   "highlight": false,
+   "start": 1.775,
+   "end": 2.012
+  },
+  {
+   "text": "kaumnya",
+   "highlight": false,
+   "start": 2.013,
+   "end": 2.388
+  },
+  {
+   "text": "akhirnya",
+   "highlight": false,
+   "start": 2.388,
+   "end": 2.775
+  },
+  {
+   "text": "beriman.",
+   "highlight": false,
+   "start": 2.775,
+   "end": 3.362
+  },
+  {
+   "text": "Jangan",
+   "highlight": false,
+   "start": 4.2,
+   "end": 4.588
+  },
+  {
+   "text": "pernah",
+   "highlight": false,
+   "start": 4.588,
+   "end": 4.938
+  },
+  {
+   "text": "berhenti",
+   "highlight": false,
+   "start": 4.938,
+   "end": 5.338
+  },
+  {
+   "text": "berdoa.",
+   "highlight": false,
+   "start": 5.338,
+   "end": 5.975
+  }
+ ]
+}

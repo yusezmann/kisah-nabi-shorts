@@ -1,0 +1,75 @@
+{
+ "hash": "6f7227cadf1b",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 5.747,
+ "text": "Adam diciptakan dari tanah, lalu Allah mengajarkan kepadanya *nama-nama* segala sesuatu.",
+ "spoken": "Adam diciptakan dari tanah, lalu Allah mengajarkan kepadanya nama-nama segala sesuatu.",
+ "words": [
+  {
+   "text": "Adam",
+   "highlight": false,
+   "start": 0.113,
+   "end": 0.362
+  },
+  {
+   "text": "diciptakan",
+   "highlight": false,
+   "start": 0.362,
+   "end": 0.863
+  },
+  {
+   "text": "dari",
+   "highlight": false,
+   "start": 0.863,
+   "end": 1.012
+  },
+  {
+   "text": "tanah,",
+   "highlight": false,
+   "start": 1.012,
+   "end": 1.562
+  },
+  {
+   "text": "lalu",
+   "highlight": false,
+   "start": 1.85,
+   "end": 2.113
+  },
+  {
+   "text": "Allah",
+   "highlight": false,
+   "start": 2.112,
+   "end": 2.35
+  },
+  {
+   "text": "mengajarkan",
+   "highlight": false,
+   "start": 2.35,
+   "end": 2.925
+  },
+  {
+   "text": "kepadanya",
+   "highlight": false,
+   "start": 2.925,
+   "end": 3.387
+  },
+  {
+   "text": "nama-nama",
+   "highlight": true,
+   "start": 3.388,
+   "end": 3.838
+  },
+  {
+   "text": "segala",
+   "highlight": false,
+   "start": 3.837,
+   "end": 4.175
+  },
+  {
+   "text": "sesuatu.",
+   "highlight": false,
+   "start": 4.175,
+   "end": 4.875
+  }
+ ]
+}

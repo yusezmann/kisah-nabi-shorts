@@ -1,0 +1,87 @@
+{
+ "hash": "969ac3cb6b0e",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 6.504,
+ "text": "Undian pun dilakukan. Nama Nabi Yunus yang *keluar*, dan beliau dilemparkan ke laut.",
+ "spoken": "Undian pun dilakukan. Nama Nabi Yunus yang keluar, dan beliau dilemparkan ke laut.",
+ "words": [
+  {
+   "text": "Undian",
+   "highlight": false,
+   "start": 0.1,
+   "end": 0.55
+  },
+  {
+   "text": "pun",
+   "highlight": false,
+   "start": 0.55,
+   "end": 0.738
+  },
+  {
+   "text": "dilakukan.",
+   "highlight": false,
+   "start": 0.738,
+   "end": 1.462
+  },
+  {
+   "text": "Nama",
+   "highlight": false,
+   "start": 2.3,
+   "end": 2.587
+  },
+  {
+   "text": "Nabi",
+   "highlight": false,
+   "start": 2.587,
+   "end": 2.812
+  },
+  {
+   "text": "Yunus",
+   "highlight": false,
+   "start": 2.812,
+   "end": 3.075
+  },
+  {
+   "text": "yang",
+   "highlight": false,
+   "start": 3.075,
+   "end": 3.2
+  },
+  {
+   "text": "keluar,",
+   "highlight": true,
+   "start": 3.2,
+   "end": 3.688
+  },
+  {
+   "text": "dan",
+   "highlight": false,
+   "start": 3.975,
+   "end": 4.2
+  },
+  {
+   "text": "beliau",
+   "highlight": false,
+   "start": 4.2,
+   "end": 4.513
+  },
+  {
+   "text": "dilemparkan",
+   "highlight": false,
+   "start": 4.513,
+   "end": 5.062
+  },
+  {
+   "text": "ke",
+   "highlight": false,
+   "start": 5.062,
+   "end": 5.138
+  },
+  {
+   "text": "laut.",
+   "highlight": false,
+   "start": 5.138,
+   "end": 5.612
+  }
+ ]
+}

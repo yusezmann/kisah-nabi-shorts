@@ -1,0 +1,75 @@
+{
+ "hash": "02eacb5cdf6b",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 4.807,
+ "text": "Ketika tiba di sebuah *lembah semut*, seekor semut berseru kepada kaumnya:",
+ "spoken": "Ketika tiba di sebuah lembah semut, seekor semut berseru kepada kaumnya:",
+ "words": [
+  {
+   "text": "Ketika",
+   "highlight": false,
+   "start": 0.113,
+   "end": 0.388
+  },
+  {
+   "text": "tiba",
+   "highlight": false,
+   "start": 0.388,
+   "end": 0.65
+  },
+  {
+   "text": "di",
+   "highlight": false,
+   "start": 0.65,
+   "end": 0.713
+  },
+  {
+   "text": "sebuah",
+   "highlight": false,
+   "start": 0.713,
+   "end": 1.025
+  },
+  {
+   "text": "lembah",
+   "highlight": true,
+   "start": 1.025,
+   "end": 1.262
+  },
+  {
+   "text": "semut,",
+   "highlight": true,
+   "start": 1.262,
+   "end": 1.737
+  },
+  {
+   "text": "seekor",
+   "highlight": false,
+   "start": 2.0,
+   "end": 2.375
+  },
+  {
+   "text": "semut",
+   "highlight": false,
+   "start": 2.375,
+   "end": 2.65
+  },
+  {
+   "text": "berseru",
+   "highlight": false,
+   "start": 2.65,
+   "end": 3.025
+  },
+  {
+   "text": "kepada",
+   "highlight": false,
+   "start": 3.025,
+   "end": 3.312
+  },
+  {
+   "text": "kaumnya:",
+   "highlight": false,
+   "start": 3.312,
+   "end": 3.925
+  }
+ ]
+}

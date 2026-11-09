@@ -1,0 +1,96 @@
+{
+  "slug": "nabi-adam",
+  "title": "Kisah Nabi Adam AS",
+  "subtitle": "MANUSIA PERTAMA",
+  "references": [
+    "QS. Al-Baqarah: 30-38 (khalifah di bumi, diajari nama-nama, sujud malaikat, Iblis enggan, tinggal di surga, larangan pohon, taubat diterima, diturunkan ke bumi)",
+    "QS. Al-A'raf: 11-25 (Iblis: aku lebih baik, diciptakan dari api; bisikan setan; doa Rabbana zhalamna anfusana)",
+    "QS. Al-Hijr: 26-33 (diciptakan dari tanah liat)",
+    "QS. Thaha: 115-123",
+    "QS. Shad: 71-76"
+  ],
+  "reviewed": false,
+  "scenes": [
+    {
+      "label": "Pembuka",
+      "narration": "Siapakah manusia pertama di muka bumi? Inilah kisah Nabi Adam *alaihissalam*.",
+      "mood": "divine",
+      "sky": "dawn",
+      "place": [],
+      "figures": [],
+      "props": [],
+      "visual": "Soft divine light rays over an empty dawn sky."
+    },
+    {
+      "label": "Khalifah di bumi",
+      "narration": "Allah berfirman kepada para malaikat: Aku hendak menjadikan *khalifah* di bumi.",
+      "mood": "divine",
+      "sky": "dawn",
+      "place": ["mountains"],
+      "figures": [],
+      "props": [],
+      "visual": "Vast untouched earth with distant hills under radiant light, no figures."
+    },
+    {
+      "label": "Diciptakan dari tanah",
+      "narration": "Adam diciptakan dari tanah, lalu Allah mengajarkan kepadanya *nama-nama* segala sesuatu.",
+      "mood": "calm",
+      "sky": "dawn",
+      "place": ["mountains"],
+      "figures": ["prophet"],
+      "props": [],
+      "visual": "A faceless silhouette of the first man seen from behind, standing before distant hills at dawn."
+    },
+    {
+      "label": "Iblis sombong",
+      "narration": "Semua malaikat sujud kepada Adam, kecuali *Iblis*. Ia sombong: aku dari api, dia dari tanah.",
+      "mood": "tense",
+      "sky": "storm",
+      "place": [],
+      "figures": [],
+      "props": [],
+      "visual": "Dark stormy sky with rising embers, no figures."
+    },
+    {
+      "label": "Larangan satu pohon",
+      "narration": "Adam dan istrinya tinggal di surga, dan dilarang mendekati *satu pohon*.",
+      "mood": "calm",
+      "sky": "dawn",
+      "place": [],
+      "figures": ["prophet"],
+      "props": ["pohon.png"],
+      "visual": "A single large tree silhouette with a soft glow, a faceless figure far away seen from behind."
+    },
+    {
+      "label": "Bisikan setan",
+      "narration": "Setan terus membisikkan tipu daya, hingga keduanya *tergelincir* memakan buahnya.",
+      "mood": "sad",
+      "sky": "dusk",
+      "place": [],
+      "figures": ["prophet"],
+      "props": ["pohon.png"],
+      "visual": "The same tree silhouette at dusk, darker mood, a faceless figure seen from behind."
+    },
+    {
+      "label": "Doa taubat",
+      "narration": "*Rabbanaa zhalamnaa anfusanaa*. Ya Tuhan kami, kami telah menzalimi diri kami sendiri.",
+      "mood": "divine",
+      "sky": "night",
+      "place": [],
+      "figures": [],
+      "props": [],
+      "visual": "Soft divine light shining in deep darkness.",
+      "overlay": { "title": "رَبَّنَا ظَلَمْنَا أَنْفُسَنَا", "subtitle": "QS. AL-A'RAF: 23", "y": 30, "style": "arabic", "start": 0.4 }
+    },
+    {
+      "label": "Taubat diterima",
+      "narration": "Allah *menerima taubat* mereka, lalu keduanya diturunkan ke bumi. Jangan ragu kembali kepada-Nya.",
+      "mood": "hope",
+      "sky": "dawn",
+      "place": ["mountains"],
+      "figures": ["prophet"],
+      "props": [],
+      "visual": "A faceless figure seen from behind on a hill at sunrise, hopeful light."
+    }
+  ]
+}

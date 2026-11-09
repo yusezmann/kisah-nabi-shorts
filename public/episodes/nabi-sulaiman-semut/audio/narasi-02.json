@@ -1,0 +1,75 @@
+{
+ "hash": "743642f2ced6",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 4.807,
+ "text": "Allah menganugerahkan kepada Nabi Sulaiman kerajaan yang besar dan *bahasa burung*.",
+ "spoken": "Allah menganugerahkan kepada Nabi Sulaiman kerajaan yang besar dan bahasa burung.",
+ "words": [
+  {
+   "text": "Allah",
+   "highlight": false,
+   "start": 0.1,
+   "end": 0.375
+  },
+  {
+   "text": "menganugerahkan",
+   "highlight": false,
+   "start": 0.375,
+   "end": 1.025
+  },
+  {
+   "text": "kepada",
+   "highlight": false,
+   "start": 1.025,
+   "end": 1.287
+  },
+  {
+   "text": "Nabi",
+   "highlight": false,
+   "start": 1.288,
+   "end": 1.525
+  },
+  {
+   "text": "Sulaiman",
+   "highlight": false,
+   "start": 1.525,
+   "end": 1.925
+  },
+  {
+   "text": "kerajaan",
+   "highlight": false,
+   "start": 1.925,
+   "end": 2.413
+  },
+  {
+   "text": "yang",
+   "highlight": false,
+   "start": 2.413,
+   "end": 2.55
+  },
+  {
+   "text": "besar",
+   "highlight": false,
+   "start": 2.55,
+   "end": 2.887
+  },
+  {
+   "text": "dan",
+   "highlight": false,
+   "start": 2.888,
+   "end": 3.1
+  },
+  {
+   "text": "bahasa",
+   "highlight": true,
+   "start": 3.1,
+   "end": 3.438
+  },
+  {
+   "text": "burung.",
+   "highlight": true,
+   "start": 3.438,
+   "end": 3.938
+  }
+ ]
+}

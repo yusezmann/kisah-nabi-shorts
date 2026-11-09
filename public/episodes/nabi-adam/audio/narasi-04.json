@@ -1,0 +1,99 @@
+{
+ "hash": "cb08fb053858",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 8.072,
+ "text": "Semua malaikat sujud kepada Adam, kecuali *Iblis*. Ia sombong: aku dari api, dia dari tanah.",
+ "spoken": "Semua malaikat sujud kepada Adam, kecuali Iblis. Ia sombong: aku dari api, dia dari tanah.",
+ "words": [
+  {
+   "text": "Semua",
+   "highlight": false,
+   "start": 0.1,
+   "end": 0.463
+  },
+  {
+   "text": "malaikat",
+   "highlight": false,
+   "start": 0.463,
+   "end": 0.863
+  },
+  {
+   "text": "sujud",
+   "highlight": false,
+   "start": 0.863,
+   "end": 1.188
+  },
+  {
+   "text": "kepada",
+   "highlight": false,
+   "start": 1.188,
+   "end": 1.45
+  },
+  {
+   "text": "Adam,",
+   "highlight": false,
+   "start": 1.45,
+   "end": 1.987
+  },
+  {
+   "text": "kecuali",
+   "highlight": false,
+   "start": 2.237,
+   "end": 2.625
+  },
+  {
+   "text": "Iblis.",
+   "highlight": true,
+   "start": 2.625,
+   "end": 3.2
+  },
+  {
+   "text": "Ia",
+   "highlight": false,
+   "start": 4.037,
+   "end": 4.25
+  },
+  {
+   "text": "sombong:",
+   "highlight": false,
+   "start": 4.25,
+   "end": 4.838
+  },
+  {
+   "text": "aku",
+   "highlight": false,
+   "start": 5.088,
+   "end": 5.325
+  },
+  {
+   "text": "dari",
+   "highlight": false,
+   "start": 5.325,
+   "end": 5.5
+  },
+  {
+   "text": "api,",
+   "highlight": false,
+   "start": 5.5,
+   "end": 6.0
+  },
+  {
+   "text": "dia",
+   "highlight": false,
+   "start": 6.237,
+   "end": 6.513
+  },
+  {
+   "text": "dari",
+   "highlight": false,
+   "start": 6.513,
+   "end": 6.7
+  },
+  {
+   "text": "tanah.",
+   "highlight": false,
+   "start": 6.7,
+   "end": 7.188
+  }
+ ]
+}

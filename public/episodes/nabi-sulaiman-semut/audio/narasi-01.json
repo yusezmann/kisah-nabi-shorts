@@ -1,0 +1,87 @@
+{
+ "hash": "fa96b4ab07e4",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 7.027,
+ "text": "Seekor semut kecil pernah membuat seorang nabi *tersenyum*. Inilah kisah Nabi Sulaiman alaihissalam.",
+ "spoken": "Seekor semut kecil pernah membuat seorang nabi tersenyum. Inilah kisah Nabi Sulaiman alaihis-salam.",
+ "words": [
+  {
+   "text": "Seekor",
+   "highlight": false,
+   "start": 0.1,
+   "end": 0.488
+  },
+  {
+   "text": "semut",
+   "highlight": false,
+   "start": 0.487,
+   "end": 0.738
+  },
+  {
+   "text": "kecil",
+   "highlight": false,
+   "start": 0.738,
+   "end": 1.087
+  },
+  {
+   "text": "pernah",
+   "highlight": false,
+   "start": 1.087,
+   "end": 1.4
+  },
+  {
+   "text": "membuat",
+   "highlight": false,
+   "start": 1.4,
+   "end": 1.737
+  },
+  {
+   "text": "seorang",
+   "highlight": false,
+   "start": 1.738,
+   "end": 2.038
+  },
+  {
+   "text": "nabi",
+   "highlight": false,
+   "start": 2.038,
+   "end": 2.275
+  },
+  {
+   "text": "tersenyum.",
+   "highlight": true,
+   "start": 2.275,
+   "end": 2.987
+  },
+  {
+   "text": "Inilah",
+   "highlight": false,
+   "start": 3.825,
+   "end": 4.25
+  },
+  {
+   "text": "kisah",
+   "highlight": false,
+   "start": 4.25,
+   "end": 4.525
+  },
+  {
+   "text": "Nabi",
+   "highlight": false,
+   "start": 4.525,
+   "end": 4.788
+  },
+  {
+   "text": "Sulaiman",
+   "highlight": false,
+   "start": 4.787,
+   "end": 5.25
+  },
+  {
+   "text": "alaihissalam.",
+   "highlight": false,
+   "start": 5.25,
+   "end": 6.138
+  }
+ ]
+}

@@ -1,0 +1,820 @@
+{
+  "id": "NabiSulaimanSemut",
+  "title": "Nabi Sulaiman & Semut",
+  "subtitle": "PELAJARAN DARI LEMBAH SEMUT",
+  "targetDurationSeconds": null,
+  "music": {
+    "src": "library/music/ambient-01.mp3",
+    "volume": 0.35,
+    "fadeIn": 1.5,
+    "fadeOut": 2.5,
+    "duckTo": 0.4
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "label": "Pembuka",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.8
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": -15
+          },
+          "opacity": 0.7
+        },
+        {
+          "src": "library/land/mountains-far.png",
+          "depth": 0.32,
+          "fit": "cover"
+        }
+      ],
+      "camera": {
+        "preset": "slowZoomIn",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "dust",
+          "count": 50
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 22
+          },
+          "intensity": 0.4,
+          "rays": 14
+        }
+      ],
+      "grade": {
+        "tint": "#ffb070",
+        "tintOpacity": 0.12,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Seekor semut kecil pernah membuat seorang nabi *tersenyum*. Inilah kisah Nabi Sulaiman alaihissalam.",
+        "audio": "episodes/nabi-sulaiman-semut/audio/narasi-01.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Seekor semut kecil pernah",
+            "start": 0.35,
+            "end": 1.65
+          },
+          {
+            "text": "membuat seorang nabi *tersenyum.*",
+            "start": 1.65,
+            "end": 4.075
+          },
+          {
+            "text": "Inilah kisah Nabi Sulaiman alaihissalam.",
+            "start": 4.075,
+            "end": 6.388
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/wind.mp3",
+          "at": 0,
+          "volume": 0.25,
+          "fadeIn": 0.5,
+          "fadeOut": 1
+        }
+      ],
+      "overlay": {
+        "title": "Nabi Sulaiman & Semut",
+        "subtitle": "PELAJARAN DARI LEMBAH SEMUT",
+        "y": 26,
+        "style": "hero",
+        "start": 0.3
+      }
+    },
+    {
+      "id": "s02",
+      "label": "Anugerah kerajaan",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "flashWhite",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": 10
+          },
+          "opacity": 0.5
+        },
+        {
+          "src": "library/city/village.png",
+          "depth": 0.55,
+          "fit": "cover"
+        },
+        {
+          "src": "library/people/prophet-back.png",
+          "depth": 0.9,
+          "fit": "width",
+          "width": 520,
+          "anchor": "bottom",
+          "offset": {
+            "x": -140,
+            "y": -60
+          },
+          "float": {
+            "amplitude": 4,
+            "speed": 0.25
+          },
+          "enter": {
+            "type": "fade",
+            "duration": 1
+          }
+        }
+      ],
+      "camera": {
+        "preset": "riseReveal",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "sparkles",
+          "count": 40
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 12
+          },
+          "intensity": 0.6,
+          "rays": 18,
+          "rotateSpeed": 2
+        },
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 12
+          },
+          "radius": 520,
+          "intensity": 0.5
+        }
+      ],
+      "grade": {
+        "tint": "#fff1c4",
+        "tintOpacity": 0.12,
+        "tintBlend": "screen"
+      },
+      "narration": {
+        "text": "Allah menganugerahkan kepada Nabi Sulaiman kerajaan yang besar dan *bahasa burung*.",
+        "audio": "episodes/nabi-sulaiman-semut/audio/narasi-02.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Allah menganugerahkan kepada Nabi",
+            "start": 0.35,
+            "end": 1.775
+          },
+          {
+            "text": "Sulaiman kerajaan yang besar",
+            "start": 1.775,
+            "end": 3.138
+          },
+          {
+            "text": "dan *bahasa* *burung.*",
+            "start": 3.138,
+            "end": 4.188
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/chime.mp3",
+          "at": 0.2,
+          "volume": 0.55
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "label": "Bala tentara",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "crossfade",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": -15
+          },
+          "opacity": 0.7
+        },
+        {
+          "src": "library/land/mountains-far.png",
+          "depth": 0.32,
+          "fit": "cover"
+        }
+      ],
+      "camera": {
+        "preset": "slowZoomIn",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "dust",
+          "count": 50
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 22
+          },
+          "intensity": 0.4,
+          "rays": 14
+        }
+      ],
+      "grade": {
+        "tint": "#ffb070",
+        "tintOpacity": 0.12,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Bala tentaranya dari jin, manusia, dan burung berbaris dengan *tertib*.",
+        "audio": "episodes/nabi-sulaiman-semut/audio/narasi-03.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Bala tentaranya dari jin,",
+            "start": 0.363,
+            "end": 1.938
+          },
+          {
+            "text": "manusia, dan burung berbaris",
+            "start": 1.938,
+            "end": 3.8
+          },
+          {
+            "text": "dengan *tertib.*",
+            "start": 3.8,
+            "end": 4.562
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/wind.mp3",
+          "at": 0,
+          "volume": 0.25,
+          "fadeIn": 0.5,
+          "fadeOut": 1
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "label": "Lembah semut",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "background": "#120a10",
+      "transitionIn": {
+        "type": "zoomBlur",
+        "duration": 0.5
+      },
+      "layers": [
+        {
+          "src": "library/sky/dusk.webp",
+          "depth": 0.05,
+          "filter": "hue-rotate(-15deg) brightness(0.8)"
+        },
+        {
+          "src": "library/land/mountains-far.png",
+          "depth": 0.32,
+          "fit": "cover"
+        }
+      ],
+      "camera": {
+        "preset": "dramaticPush",
+        "shake": {
+          "intensity": 5,
+          "speed": 1.5,
+          "rotation": 0.3
+        }
+      },
+      "particles": [
+        {
+          "preset": "embers",
+          "count": 45
+        }
+      ],
+      "lights": [
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 85
+          },
+          "radius": 600,
+          "color": "rgba(255,120,40,1)",
+          "intensity": 0.45
+        }
+      ],
+      "grade": {
+        "tint": "#ff5a1f",
+        "tintOpacity": 0.18,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Ketika tiba di sebuah *lembah semut*, seekor semut berseru kepada kaumnya:",
+        "audio": "episodes/nabi-sulaiman-semut/audio/narasi-04.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Ketika tiba di sebuah",
+            "start": 0.363,
+            "end": 1.275
+          },
+          {
+            "text": "*lembah* *semut,*",
+            "start": 1.275,
+            "end": 2.25
+          },
+          {
+            "text": "seekor semut berseru kepada kaumnya:",
+            "start": 2.25,
+            "end": 4.175
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/whoosh.mp3",
+          "at": 0,
+          "volume": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "label": "Seruan semut",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "background": "#120a10",
+      "transitionIn": {
+        "type": "zoomBlur",
+        "duration": 0.5
+      },
+      "layers": [
+        {
+          "src": "library/sky/dusk.webp",
+          "depth": 0.05,
+          "filter": "hue-rotate(-15deg) brightness(0.8)"
+        }
+      ],
+      "camera": {
+        "preset": "dramaticPush",
+        "shake": {
+          "intensity": 5,
+          "speed": 1.5,
+          "rotation": 0.3
+        }
+      },
+      "particles": [
+        {
+          "preset": "embers",
+          "count": 45
+        }
+      ],
+      "lights": [
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 85
+          },
+          "radius": 600,
+          "color": "rgba(255,120,40,1)",
+          "intensity": 0.45
+        }
+      ],
+      "grade": {
+        "tint": "#ff5a1f",
+        "tintOpacity": 0.18,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Masuklah ke sarang kalian, agar tidak *terinjak* Sulaiman dan tentaranya, sedang mereka tidak menyadari.",
+        "audio": "episodes/nabi-sulaiman-semut/audio/narasi-05.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Masuklah ke sarang kalian,",
+            "start": 0.363,
+            "end": 1.887
+          },
+          {
+            "text": "agar tidak *terinjak* Sulaiman",
+            "start": 1.887,
+            "end": 3.163
+          },
+          {
+            "text": "dan tentaranya,",
+            "start": 3.163,
+            "end": 4.237
+          },
+          {
+            "text": "sedang mereka tidak menyadari.",
+            "start": 4.237,
+            "end": 5.713
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/whoosh.mp3",
+          "at": 0,
+          "volume": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "label": "Sulaiman tersenyum",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "crossfade",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": -15
+          },
+          "opacity": 0.7
+        },
+        {
+          "src": "library/land/mountains-far.png",
+          "depth": 0.32,
+          "fit": "cover"
+        },
+        {
+          "src": "library/people/prophet-back.png",
+          "depth": 0.9,
+          "fit": "width",
+          "width": 520,
+          "anchor": "bottom",
+          "offset": {
+            "x": -140,
+            "y": -60
+          },
+          "float": {
+            "amplitude": 4,
+            "speed": 0.25
+          },
+          "enter": {
+            "type": "fade",
+            "duration": 1
+          }
+        }
+      ],
+      "camera": {
+        "preset": "slowZoomIn",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "dust",
+          "count": 50
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 22
+          },
+          "intensity": 0.4,
+          "rays": 14
+        }
+      ],
+      "grade": {
+        "tint": "#ffb070",
+        "tintOpacity": 0.12,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Nabi Sulaiman *tersenyum* mendengar perkataan semut itu, lalu beliau berdoa:",
+        "audio": "episodes/nabi-sulaiman-semut/audio/narasi-06.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Nabi Sulaiman *tersenyum* mendengar",
+            "start": 0.363,
+            "end": 1.825
+          },
+          {
+            "text": "perkataan semut itu,",
+            "start": 1.825,
+            "end": 3.275
+          },
+          {
+            "text": "lalu beliau berdoa:",
+            "start": 3.275,
+            "end": 4.475
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/wind.mp3",
+          "at": 0,
+          "volume": 0.25,
+          "fadeIn": 0.5,
+          "fadeOut": 1
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "label": "Doa syukur",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "flashWhite",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": 10
+          },
+          "opacity": 0.5
+        }
+      ],
+      "camera": {
+        "preset": "riseReveal",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "sparkles",
+          "count": 40
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 12
+          },
+          "intensity": 0.6,
+          "rays": 18,
+          "rotateSpeed": 2
+        },
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 12
+          },
+          "radius": 520,
+          "intensity": 0.5
+        }
+      ],
+      "grade": {
+        "tint": "#fff1c4",
+        "tintOpacity": 0.12,
+        "tintBlend": "screen"
+      },
+      "narration": {
+        "text": "Ya Tuhanku, ilhamkan aku untuk *mensyukuri* nikmat-Mu dan beramal saleh yang Engkau ridai.",
+        "audio": "episodes/nabi-sulaiman-semut/audio/narasi-07.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Ya Tuhanku,",
+            "start": 0.363,
+            "end": 1.45
+          },
+          {
+            "text": "ilhamkan aku untuk *mensyukuri*",
+            "start": 1.45,
+            "end": 2.725
+          },
+          {
+            "text": "nikmat-Mu dan beramal saleh",
+            "start": 2.725,
+            "end": 4.188
+          },
+          {
+            "text": "yang Engkau ridai.",
+            "start": 4.188,
+            "end": 5.138
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/chime.mp3",
+          "at": 0.2,
+          "volume": 0.55
+        }
+      ],
+      "overlay": {
+        "title": "رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ",
+        "subtitle": "QS. AN-NAML: 19",
+        "y": 30,
+        "style": "arabic",
+        "start": 0.4
+      }
+    },
+    {
+      "id": "s08",
+      "label": "Pelajaran",
+      "duration": "auto",
+      "autoPadding": 1.6,
+      "transitionIn": {
+        "type": "circleReveal",
+        "duration": 0.8
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": 10
+          },
+          "opacity": 0.5
+        },
+        {
+          "src": "library/land/mountains-far.png",
+          "depth": 0.32,
+          "fit": "cover"
+        },
+        {
+          "src": "library/people/prophet-back.png",
+          "depth": 0.9,
+          "fit": "width",
+          "width": 520,
+          "anchor": "bottom",
+          "offset": {
+            "x": -140,
+            "y": -60
+          },
+          "float": {
+            "amplitude": 4,
+            "speed": 0.25
+          },
+          "enter": {
+            "type": "fade",
+            "duration": 1
+          }
+        }
+      ],
+      "camera": {
+        "preset": "panUp",
+        "strength": 0.8
+      },
+      "particles": [
+        {
+          "preset": "fireflies",
+          "count": 26
+        },
+        {
+          "preset": "dust",
+          "count": 35,
+          "seed": "hope-dust"
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 15
+          },
+          "intensity": 0.45
+        },
+        {
+          "type": "lensFlare",
+          "position": {
+            "x": 50,
+            "y": 15
+          },
+          "intensity": 0.3
+        }
+      ],
+      "grade": {
+        "tint": "#ffcf8a",
+        "tintOpacity": 0.15,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Semut yang kecil peduli pada kaumnya, nabi yang besar tetap *bersyukur*. Mana yang sudah kita teladani?",
+        "audio": "episodes/nabi-sulaiman-semut/audio/narasi-08.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Semut yang kecil peduli",
+            "start": 0.35,
+            "end": 1.363
+          },
+          {
+            "text": "pada kaumnya,",
+            "start": 1.363,
+            "end": 2.487
+          },
+          {
+            "text": "nabi yang besar tetap",
+            "start": 2.487,
+            "end": 3.425
+          },
+          {
+            "text": "*bersyukur.*",
+            "start": 3.425,
+            "end": 4.95
+          },
+          {
+            "text": "Mana yang sudah kita teladani?",
+            "start": 4.95,
+            "end": 6.487
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/chime.mp3",
+          "at": 0.3,
+          "volume": 0.45
+        }
+      ],
+      "overlay": {
+        "title": "Ikuti untuk kisah berikutnya",
+        "y": 22,
+        "style": "cta",
+        "start": 5.98
+      }
+    }
+  ],
+  "_source": {
+    "draft": "pipeline/drafts/nabi-sulaiman-semut.json",
+    "references": [
+      "QS. An-Naml: 15-16 (Sulaiman mewarisi Daud, diajari bahasa burung, dianugerahi segala sesuatu)",
+      "QS. An-Naml: 17 (bala tentara jin, manusia, dan burung, diatur dengan tertib)",
+      "QS. An-Naml: 18 (lembah semut; seruan semut: masuklah ke sarang, agar tidak terinjak, sedang mereka tidak menyadari)",
+      "QS. An-Naml: 19 (Sulaiman tersenyum lalu tertawa, dan berdoa: Rabbi auzi'ni an asykura ni'matak)"
+    ],
+    "reviewed": false
+  }
+}

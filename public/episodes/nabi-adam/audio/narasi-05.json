@@ -1,0 +1,75 @@
+{
+ "hash": "4412087b320d",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 4.833,
+ "text": "Adam dan istrinya tinggal di surga, dan dilarang mendekati *satu pohon*.",
+ "spoken": "Adam dan istrinya tinggal di surga, dan dilarang mendekati satu pohon.",
+ "words": [
+  {
+   "text": "Adam",
+   "highlight": false,
+   "start": 0.113,
+   "end": 0.438
+  },
+  {
+   "text": "dan",
+   "highlight": false,
+   "start": 0.438,
+   "end": 0.562
+  },
+  {
+   "text": "istrinya",
+   "highlight": false,
+   "start": 0.562,
+   "end": 0.988
+  },
+  {
+   "text": "tinggal",
+   "highlight": false,
+   "start": 0.988,
+   "end": 1.288
+  },
+  {
+   "text": "di",
+   "highlight": false,
+   "start": 1.288,
+   "end": 1.35
+  },
+  {
+   "text": "surga,",
+   "highlight": false,
+   "start": 1.35,
+   "end": 1.925
+  },
+  {
+   "text": "dan",
+   "highlight": false,
+   "start": 2.225,
+   "end": 2.45
+  },
+  {
+   "text": "dilarang",
+   "highlight": false,
+   "start": 2.45,
+   "end": 2.775
+  },
+  {
+   "text": "mendekati",
+   "highlight": false,
+   "start": 2.775,
+   "end": 3.188
+  },
+  {
+   "text": "satu",
+   "highlight": true,
+   "start": 3.188,
+   "end": 3.438
+  },
+  {
+   "text": "pohon.",
+   "highlight": true,
+   "start": 3.438,
+   "end": 3.962
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "hash": "4f05cd2e388b",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 7.053,
+ "text": "*Rabbanaa zhalamnaa anfusanaa*. Ya Tuhan kami, kami telah menzalimi diri kami sendiri.",
+ "spoken": "Rabbanaa zalamnaa anfusanaa. Ya Tuhan kami, kami telah menzalimi diri kami sendiri.",
+ "words": [
+  {
+   "text": "Rabbanaa",
+   "highlight": true,
+   "start": 0.1,
+   "end": 0.725
+  },
+  {
+   "text": "zhalamnaa",
+   "highlight": true,
+   "start": 0.725,
+   "end": 1.237
+  },
+  {
+   "text": "anfusanaa.",
+   "highlight": true,
+   "start": 1.238,
+   "end": 2.1
+  },
+  {
+   "text": "Ya",
+   "highlight": false,
+   "start": 2.938,
+   "end": 3.125
+  },
+  {
+   "text": "Tuhan",
+   "highlight": false,
+   "start": 3.125,
+   "end": 3.4
+  },
+  {
+   "text": "kami,",
+   "highlight": false,
+   "start": 3.4,
+   "end": 3.912
+  },
+  {
+   "text": "kami",
+   "highlight": false,
+   "start": 4.213,
+   "end": 4.463
+  },
+  {
+   "text": "telah",
+   "highlight": false,
+   "start": 4.463,
+   "end": 4.65
+  },
+  {
+   "text": "menzalimi",
+   "highlight": false,
+   "start": 4.65,
+   "end": 5.188
+  },
+  {
+   "text": "diri",
+   "highlight": false,
+   "start": 5.188,
+   "end": 5.388
+  },
+  {
+   "text": "kami",
+   "highlight": false,
+   "start": 5.388,
+   "end": 5.575
+  },
+  {
+   "text": "sendiri.",
+   "highlight": false,
+   "start": 5.575,
+   "end": 6.163
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "kisah-nabi-shorts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion template untuk YouTube Shorts animasi kisah nabi (1080x1920, 30fps, berbasis data)",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts NabiNuh out/nabi-nuh.mp4",
+    "render:episode": "node scripts/render-episode.mjs",
+    "render:all": "node scripts/render-episode.mjs --all",
+    "still": "remotion still src/index.ts NabiNuh out/thumbnail.png --frame=60",
+    "new-episode": "node scripts/new-episode.mjs",
+    "typecheck": "tsc --noEmit",
+    "script": "node pipeline/1-script.mjs",
+    "tts": "node pipeline/2-tts.mjs",
+    "voice:samples": "node pipeline/2-tts.mjs --samples",
+    "build:episode": "node pipeline/3-build.mjs",
+    "episode": "node pipeline/run.mjs",
+    "remove-bg": "node pipeline/remove-bg.mjs",
+    "library:check": "node pipeline/library-check.mjs",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/fonts": "^4.0.0",
+    "@remotion/media-utils": "^4.0.0",
+    "@remotion/noise": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}

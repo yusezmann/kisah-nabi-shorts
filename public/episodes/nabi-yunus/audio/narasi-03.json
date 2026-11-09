@@ -1,0 +1,63 @@
+{
+ "hash": "af79a49395c5",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 4.859,
+ "text": "Dalam keadaan *marah*, beliau pergi meninggalkan kaumnya menuju lautan.",
+ "spoken": "Dalam keadaan marah, beliau pergi meninggalkan kaumnya menuju lautan.",
+ "words": [
+  {
+   "text": "Dalam",
+   "highlight": false,
+   "start": 0.113,
+   "end": 0.388
+  },
+  {
+   "text": "keadaan",
+   "highlight": false,
+   "start": 0.388,
+   "end": 0.75
+  },
+  {
+   "text": "marah,",
+   "highlight": true,
+   "start": 0.75,
+   "end": 1.238
+  },
+  {
+   "text": "beliau",
+   "highlight": false,
+   "start": 1.488,
+   "end": 1.8
+  },
+  {
+   "text": "pergi",
+   "highlight": false,
+   "start": 1.8,
+   "end": 2.062
+  },
+  {
+   "text": "meninggalkan",
+   "highlight": false,
+   "start": 2.062,
+   "end": 2.625
+  },
+  {
+   "text": "kaumnya",
+   "highlight": false,
+   "start": 2.625,
+   "end": 3.038
+  },
+  {
+   "text": "menuju",
+   "highlight": false,
+   "start": 3.038,
+   "end": 3.388
+  },
+  {
+   "text": "lautan.",
+   "highlight": false,
+   "start": 3.388,
+   "end": 3.988
+  }
+ ]
+}

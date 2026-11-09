@@ -1,0 +1,35 @@
+{
+  "_note": "Pustaka aset bersama. role: sky|atmo|far|mid|water|prop|figure|fg|sfx|music. 'layer' = default ParallaxLayerConfig (tanpa src). Tag dipakai naskah untuk memilih gambar. Cek dengan: npm run library:check",
+  "assets": [
+    { "id": "sky-dusk", "src": "library/sky/dusk.webp", "role": "sky", "tags": ["dusk", "evening"], "layer": { "depth": 0.05 } },
+    { "id": "sky-dawn", "src": "library/sky/dawn.webp", "role": "sky", "tags": ["dawn", "morning", "day"], "layer": { "depth": 0.05 } },
+    { "id": "sky-storm", "src": "library/sky/storm.webp", "role": "sky", "tags": ["storm", "night", "dark"], "layer": { "depth": 0.05 } },
+
+    { "id": "clouds", "src": "library/atmo/clouds.png", "role": "atmo", "tags": ["clouds"], "layer": { "depth": 0.15, "drift": { "x": -18 }, "opacity": 0.8 } },
+
+    { "id": "mountains-far", "src": "library/land/mountains-far.png", "role": "far", "tags": ["mountains", "hills", "land"], "layer": { "depth": 0.32, "fit": "cover" } },
+    { "id": "mountain-peak", "src": "library/land/mountain-peak.png", "role": "mid", "tags": ["mountain-peak", "mountain"], "layer": { "depth": 0.45 } },
+    { "id": "mount-judi", "src": "library/land/mount-judi.png", "role": "mid", "tags": ["mount-judi", "ark-landed"], "layer": { "depth": 0.5 } },
+    { "id": "village", "src": "library/city/village.png", "role": "mid", "tags": ["village", "city", "town"], "layer": { "depth": 0.55, "fit": "cover" } },
+
+    { "id": "waves-back", "src": "library/sea/waves-back.png", "role": "water", "tags": ["sea", "flood", "waves"], "layer": { "depth": 0.6, "drift": { "x": -40 }, "float": { "amplitude": 18, "speed": 0.35 } } },
+    { "id": "waves-front", "src": "library/sea/waves-front.png", "role": "fg", "tags": ["sea", "flood", "waves"], "layer": { "depth": 1.3, "drift": { "x": -90 }, "float": { "amplitude": 26, "speed": 0.45 } } },
+
+    { "id": "ark", "src": "library/props/ark.png", "role": "prop", "tags": ["ark"], "layer": { "depth": 0.8, "fit": "width", "width": 900, "anchor": "center", "offset": { "y": 230 }, "float": { "amplitude": 24, "speed": 0.3, "rotate": 4 } } },
+    { "id": "ark-frame", "src": "library/props/ark-frame.png", "role": "prop", "tags": ["ark-frame", "building"], "layer": { "depth": 0.8, "fit": "width", "width": 1000, "anchor": "bottom", "offset": { "y": -260 }, "enter": { "type": "zoom", "duration": 1.2 } } },
+
+    { "id": "prophet-back", "src": "library/people/prophet-back.png", "role": "figure", "tags": ["prophet"], "layer": { "depth": 0.9, "fit": "width", "width": 520, "anchor": "bottom", "offset": { "x": -140, "y": -60 }, "float": { "amplitude": 4, "speed": 0.25 }, "enter": { "type": "fade", "duration": 1 } } },
+    { "id": "crowd", "src": "library/people/crowd.png", "role": "figure", "tags": ["crowd", "people"], "layer": { "depth": 1.25, "fit": "width", "width": 1300, "anchor": "bottom", "offset": { "y": 40 }, "enter": { "type": "rise", "duration": 1, "delay": 0.4 } } },
+    { "id": "animal-pairs", "src": "library/animals/animal-pairs.png", "role": "figure", "tags": ["animals"], "layer": { "depth": 1.2, "fit": "width", "width": 1250, "anchor": "bottom", "offset": { "y": -40 }, "drift": { "x": 45 }, "enter": { "type": "slideRight", "duration": 1 } } },
+
+    { "id": "sfx-chime", "src": "library/sfx/chime.mp3", "role": "sfx", "tags": ["chime", "divine", "hope"] },
+    { "id": "sfx-hammer", "src": "library/sfx/hammer.mp3", "role": "sfx", "tags": ["hammer", "building"] },
+    { "id": "sfx-rain", "src": "library/sfx/rain-loop.mp3", "role": "sfx", "tags": ["rain"] },
+    { "id": "sfx-thunder", "src": "library/sfx/thunder.mp3", "role": "sfx", "tags": ["thunder"] },
+    { "id": "sfx-waves", "src": "library/sfx/waves.mp3", "role": "sfx", "tags": ["waves", "sea"] },
+    { "id": "sfx-whoosh", "src": "library/sfx/whoosh.mp3", "role": "sfx", "tags": ["whoosh"] },
+    { "id": "sfx-wind", "src": "library/sfx/wind.mp3", "role": "sfx", "tags": ["wind"] },
+
+    { "id": "music-ambient-01", "src": "library/music/ambient-01.mp3", "role": "music", "tags": ["ambient", "default"] }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+ "hash": "5a6205f97236",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 5.303,
+ "text": "Setan terus membisikkan tipu daya, hingga keduanya *tergelincir* memakan buahnya.",
+ "spoken": "Setan terus membisikkan tipu daya, hingga keduanya tergelincir memakan buahnya.",
+ "words": [
+  {
+   "text": "Setan",
+   "highlight": false,
+   "start": 0.113,
+   "end": 0.475
+  },
+  {
+   "text": "terus",
+   "highlight": false,
+   "start": 0.475,
+   "end": 0.7
+  },
+  {
+   "text": "membisikkan",
+   "highlight": false,
+   "start": 0.7,
+   "end": 1.188
+  },
+  {
+   "text": "tipu",
+   "highlight": false,
+   "start": 1.188,
+   "end": 1.4
+  },
+  {
+   "text": "daya,",
+   "highlight": false,
+   "start": 1.4,
+   "end": 1.938
+  },
+  {
+   "text": "hingga",
+   "highlight": false,
+   "start": 2.212,
+   "end": 2.487
+  },
+  {
+   "text": "keduanya",
+   "highlight": false,
+   "start": 2.487,
+   "end": 2.887
+  },
+  {
+   "text": "tergelincir",
+   "highlight": true,
+   "start": 2.888,
+   "end": 3.45
+  },
+  {
+   "text": "memakan",
+   "highlight": false,
+   "start": 3.45,
+   "end": 3.812
+  },
+  {
+   "text": "buahnya.",
+   "highlight": false,
+   "start": 3.812,
+   "end": 4.4
+  }
+ ]
+}

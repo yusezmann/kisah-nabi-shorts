@@ -1,0 +1,87 @@
+{
+ "hash": "eb0c2b1e25e3",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 6.635,
+ "text": "Pernahkah kamu membayangkan berdoa dari dalam *perut ikan*? Inilah kisah Nabi Yunus alaihissalam.",
+ "spoken": "Pernahkah kamu membayangkan berdoa dari dalam perut ikan? Inilah kisah Nabi Yunus alaihis-salam.",
+ "words": [
+  {
+   "text": "Pernahkah",
+   "highlight": false,
+   "start": 0.1,
+   "end": 0.575
+  },
+  {
+   "text": "kamu",
+   "highlight": false,
+   "start": 0.575,
+   "end": 0.787
+  },
+  {
+   "text": "membayangkan",
+   "highlight": false,
+   "start": 0.787,
+   "end": 1.288
+  },
+  {
+   "text": "berdoa",
+   "highlight": false,
+   "start": 1.288,
+   "end": 1.713
+  },
+  {
+   "text": "dari",
+   "highlight": false,
+   "start": 1.712,
+   "end": 1.912
+  },
+  {
+   "text": "dalam",
+   "highlight": false,
+   "start": 1.913,
+   "end": 2.138
+  },
+  {
+   "text": "perut",
+   "highlight": true,
+   "start": 2.138,
+   "end": 2.312
+  },
+  {
+   "text": "ikan?",
+   "highlight": true,
+   "start": 2.312,
+   "end": 2.75
+  },
+  {
+   "text": "Inilah",
+   "highlight": false,
+   "start": 3.587,
+   "end": 3.987
+  },
+  {
+   "text": "kisah",
+   "highlight": false,
+   "start": 3.987,
+   "end": 4.263
+  },
+  {
+   "text": "Nabi",
+   "highlight": false,
+   "start": 4.263,
+   "end": 4.513
+  },
+  {
+   "text": "Yunus",
+   "highlight": false,
+   "start": 4.513,
+   "end": 4.85
+  },
+  {
+   "text": "alaihissalam.",
+   "highlight": false,
+   "start": 4.85,
+   "end": 5.75
+  }
+ ]
+}

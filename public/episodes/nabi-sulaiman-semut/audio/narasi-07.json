@@ -1,0 +1,87 @@
+{
+ "hash": "7854a54fb16b",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 5.773,
+ "text": "Ya Tuhanku, ilhamkan aku untuk *mensyukuri* nikmat-Mu dan beramal saleh yang Engkau ridai.",
+ "spoken": "Ya Tuhanku, ilhamkan aku untuk mensyukuri nikmat-Mu dan beramal saleh yang Engkau ridai.",
+ "words": [
+  {
+   "text": "Ya",
+   "highlight": false,
+   "start": 0.113,
+   "end": 0.25
+  },
+  {
+   "text": "Tuhanku,",
+   "highlight": false,
+   "start": 0.25,
+   "end": 0.912
+  },
+  {
+   "text": "ilhamkan",
+   "highlight": false,
+   "start": 1.2,
+   "end": 1.637
+  },
+  {
+   "text": "aku",
+   "highlight": false,
+   "start": 1.637,
+   "end": 1.863
+  },
+  {
+   "text": "untuk",
+   "highlight": false,
+   "start": 1.863,
+   "end": 2.038
+  },
+  {
+   "text": "mensyukuri",
+   "highlight": true,
+   "start": 2.038,
+   "end": 2.475
+  },
+  {
+   "text": "nikmat-Mu",
+   "highlight": false,
+   "start": 2.475,
+   "end": 3.138
+  },
+  {
+   "text": "dan",
+   "highlight": false,
+   "start": 3.138,
+   "end": 3.312
+  },
+  {
+   "text": "beramal",
+   "highlight": false,
+   "start": 3.312,
+   "end": 3.625
+  },
+  {
+   "text": "saleh",
+   "highlight": false,
+   "start": 3.625,
+   "end": 3.938
+  },
+  {
+   "text": "yang",
+   "highlight": false,
+   "start": 3.938,
+   "end": 4.075
+  },
+  {
+   "text": "Engkau",
+   "highlight": false,
+   "start": 4.075,
+   "end": 4.388
+  },
+  {
+   "text": "ridai.",
+   "highlight": false,
+   "start": 4.388,
+   "end": 4.888
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "_note": "Kamus pelafalan TTS. Kunci = kata seperti tertulis di naskah (huruf kecil, tanpa tanda baca). Nilai = ejaan yang dibacakan. Teks subtitle tetap memakai ejaan asli.",
+  "alaihissalam": "alaihis-salam",
+  "'alaihissalam": "alaihis-salam",
+  "as": "alaihis-salam",
+  "saw": "shallallahu alaihi wasallam",
+  "swt": "subhanahu wa ta'ala",
+  "qs": "Quran surah",
+  "subhanaka": "subhaanaka",
+  "zhalimin": "zhaalimiin",
+  "ninawa": "niinawa",
+  "ilaaha": "ilaa-ha",
+  "zhalamnaa": "zalamnaa",
+  "minazh-zhaalimiin": "minaz-zaalimiin"
+}

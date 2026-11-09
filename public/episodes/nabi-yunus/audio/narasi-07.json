@@ -1,0 +1,57 @@
+{
+ "hash": "ed6b6e8a099c",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 5.381,
+ "text": "*Laa ilaaha illaa anta, subhaanaka, innii kuntu minazh-zhaalimiin.*",
+ "spoken": "Laa ilaa-ha illaa anta, subhaanaka, innii kuntu minaz-zaalimiin.",
+ "words": [
+  {
+   "text": "Laa",
+   "highlight": true,
+   "start": 0.1,
+   "end": 0.35
+  },
+  {
+   "text": "ilaaha",
+   "highlight": true,
+   "start": 0.35,
+   "end": 0.712
+  },
+  {
+   "text": "illaa",
+   "highlight": true,
+   "start": 0.713,
+   "end": 0.963
+  },
+  {
+   "text": "anta,",
+   "highlight": true,
+   "start": 0.963,
+   "end": 1.5
+  },
+  {
+   "text": "subhaanaka,",
+   "highlight": true,
+   "start": 1.75,
+   "end": 2.675
+  },
+  {
+   "text": "innii",
+   "highlight": true,
+   "start": 2.962,
+   "end": 3.275
+  },
+  {
+   "text": "kuntu",
+   "highlight": true,
+   "start": 3.275,
+   "end": 3.512
+  },
+  {
+   "text": "minazh-zhaalimiin.",
+   "highlight": true,
+   "start": 3.513,
+   "end": 4.513
+  }
+ ]
+}

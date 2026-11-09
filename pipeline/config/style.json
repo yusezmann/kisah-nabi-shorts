@@ -1,0 +1,14 @@
+{
+  "promptPrefix": "Flat 2D vector illustration in a silhouette style, simple geometric shapes, clean edges, minimal detail, soft gradient lighting, limited palette (deep purple #3a2350, warm orange #f08a4b, dark silhouette #120a18, night blue #1c2c4c, soft cream #f3e6c8, gold accent #ffcf5a), calm and reverent mood, vertical 9:16 composition.",
+  "negative": "No faces of prophets or companions, no depiction of God or angels in figurative form, no text or letters, no watermark, no realistic photo style, no 3D render, no anime style.",
+  "roleHints": {
+    "sky": "Full-frame sky background only, no objects, no ground, at least 1080x1920.",
+    "atmo": "Only clouds or mist, isolated on a transparent background.",
+    "far": "Only distant landscape silhouettes in the lower half, transparent background above.",
+    "mid": "Only the mid-ground element, isolated on a transparent background.",
+    "water": "Only stylized wave bands in the lower half, transparent background.",
+    "prop": "Only this single object, side view, isolated on a transparent background.",
+    "figure": "Silhouette figure(s) seen from behind or far away, faceless, isolated on a transparent background.",
+    "fg": "Only foreground elements along the bottom edge, transparent background."
+  }
+}

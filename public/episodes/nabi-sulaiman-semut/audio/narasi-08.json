@@ -1,0 +1,105 @@
+{
+ "hash": "19fa791f95f5",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 7.131,
+ "text": "Semut yang kecil peduli pada kaumnya, nabi yang besar tetap *bersyukur*. Mana yang sudah kita teladani?",
+ "spoken": "Semut yang kecil peduli pada kaumnya, nabi yang besar tetap bersyukur. Mana yang sudah kita teladani?",
+ "words": [
+  {
+   "text": "Semut",
+   "highlight": false,
+   "start": 0.1,
+   "end": 0.438
+  },
+  {
+   "text": "yang",
+   "highlight": false,
+   "start": 0.438,
+   "end": 0.55
+  },
+  {
+   "text": "kecil",
+   "highlight": false,
+   "start": 0.55,
+   "end": 0.788
+  },
+  {
+   "text": "peduli",
+   "highlight": false,
+   "start": 0.787,
+   "end": 1.113
+  },
+  {
+   "text": "pada",
+   "highlight": false,
+   "start": 1.113,
+   "end": 1.312
+  },
+  {
+   "text": "kaumnya,",
+   "highlight": false,
+   "start": 1.312,
+   "end": 1.938
+  },
+  {
+   "text": "nabi",
+   "highlight": false,
+   "start": 2.237,
+   "end": 2.512
+  },
+  {
+   "text": "yang",
+   "highlight": false,
+   "start": 2.513,
+   "end": 2.625
+  },
+  {
+   "text": "besar",
+   "highlight": false,
+   "start": 2.625,
+   "end": 2.925
+  },
+  {
+   "text": "tetap",
+   "highlight": false,
+   "start": 2.925,
+   "end": 3.175
+  },
+  {
+   "text": "bersyukur.",
+   "highlight": true,
+   "start": 3.175,
+   "end": 3.862
+  },
+  {
+   "text": "Mana",
+   "highlight": false,
+   "start": 4.7,
+   "end": 5.025
+  },
+  {
+   "text": "yang",
+   "highlight": false,
+   "start": 5.025,
+   "end": 5.15
+  },
+  {
+   "text": "sudah",
+   "highlight": false,
+   "start": 5.15,
+   "end": 5.388
+  },
+  {
+   "text": "kita",
+   "highlight": false,
+   "start": 5.388,
+   "end": 5.575
+  },
+  {
+   "text": "teladani?",
+   "highlight": false,
+   "start": 5.575,
+   "end": 6.237
+  }
+ ]
+}

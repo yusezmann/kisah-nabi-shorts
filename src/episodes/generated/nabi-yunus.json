@@ -1,0 +1,910 @@
+{
+  "id": "NabiYunus",
+  "title": "Kisah Nabi Yunus AS",
+  "subtitle": "DOA DARI KEGELAPAN",
+  "targetDurationSeconds": null,
+  "music": {
+    "src": "library/music/ambient-01.mp3",
+    "volume": 0.35,
+    "fadeIn": 1.5,
+    "fadeOut": 2.5,
+    "duckTo": 0.4
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "label": "Pembuka",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.8
+      },
+      "layers": [
+        {
+          "src": "library/sky/dusk.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": -15
+          },
+          "opacity": 0.7
+        },
+        {
+          "src": "library/sea/waves-back.png",
+          "depth": 0.6,
+          "drift": {
+            "x": -40
+          },
+          "float": {
+            "amplitude": 18,
+            "speed": 0.35
+          }
+        },
+        {
+          "src": "library/sea/waves-front.png",
+          "depth": 1.3,
+          "drift": {
+            "x": -90
+          },
+          "float": {
+            "amplitude": 26,
+            "speed": 0.45
+          }
+        }
+      ],
+      "camera": {
+        "preset": "slowZoomIn",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "dust",
+          "count": 50
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 22
+          },
+          "intensity": 0.4,
+          "rays": 14
+        }
+      ],
+      "grade": {
+        "tint": "#ffb070",
+        "tintOpacity": 0.12,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Pernahkah kamu membayangkan berdoa dari dalam *perut ikan*? Inilah kisah Nabi Yunus alaihissalam.",
+        "audio": "episodes/nabi-yunus/audio/narasi-01.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Pernahkah kamu membayangkan berdoa",
+            "start": 0.35,
+            "end": 1.962
+          },
+          {
+            "text": "dari dalam *perut* *ikan?*",
+            "start": 1.962,
+            "end": 3.837
+          },
+          {
+            "text": "Inilah kisah Nabi Yunus alaihissalam.",
+            "start": 3.837,
+            "end": 6
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/wind.mp3",
+          "at": 0,
+          "volume": 0.25,
+          "fadeIn": 0.5,
+          "fadeOut": 1
+        }
+      ],
+      "overlay": {
+        "title": "Kisah Nabi Yunus AS",
+        "subtitle": "DOA DARI KEGELAPAN",
+        "y": 26,
+        "style": "hero",
+        "start": 0.3
+      }
+    },
+    {
+      "id": "s02",
+      "label": "Kaum menolak",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "background": "#120a10",
+      "transitionIn": {
+        "type": "zoomBlur",
+        "duration": 0.5
+      },
+      "layers": [
+        {
+          "src": "library/sky/dusk.webp",
+          "depth": 0.05,
+          "filter": "hue-rotate(-15deg) brightness(0.8)"
+        },
+        {
+          "src": "library/city/village.png",
+          "depth": 0.55,
+          "fit": "cover"
+        },
+        {
+          "src": "library/people/prophet-back.png",
+          "depth": 0.9,
+          "fit": "width",
+          "width": 520,
+          "anchor": "bottom",
+          "offset": {
+            "x": -140,
+            "y": -60
+          },
+          "float": {
+            "amplitude": 4,
+            "speed": 0.25
+          },
+          "enter": {
+            "type": "fade",
+            "duration": 1
+          }
+        },
+        {
+          "src": "library/people/crowd.png",
+          "depth": 1.25,
+          "fit": "width",
+          "width": 1300,
+          "anchor": "bottom",
+          "offset": {
+            "y": 40
+          },
+          "enter": {
+            "type": "rise",
+            "duration": 1,
+            "delay": 0.4
+          }
+        }
+      ],
+      "camera": {
+        "preset": "dramaticPush",
+        "shake": {
+          "intensity": 5,
+          "speed": 1.5,
+          "rotation": 0.3
+        }
+      },
+      "particles": [
+        {
+          "preset": "embers",
+          "count": 45
+        }
+      ],
+      "lights": [
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 85
+          },
+          "radius": 600,
+          "color": "rgba(255,120,40,1)",
+          "intensity": 0.45
+        }
+      ],
+      "grade": {
+        "tint": "#ff5a1f",
+        "tintOpacity": 0.18,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Beliau diutus kepada kaum Ninawa, namun mereka terus *menolak* ajakan menyembah Allah.",
+        "audio": "episodes/nabi-yunus/audio/narasi-02.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Beliau diutus kepada kaum",
+            "start": 0.363,
+            "end": 1.637
+          },
+          {
+            "text": "Ninawa, namun mereka terus",
+            "start": 1.637,
+            "end": 3.413
+          },
+          {
+            "text": "*menolak* ajakan menyembah Allah.",
+            "start": 3.413,
+            "end": 4.938
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/whoosh.mp3",
+          "at": 0,
+          "volume": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "label": "Pergi dalam marah",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.8
+      },
+      "layers": [
+        {
+          "src": "library/sky/dusk.webp",
+          "depth": 0.05,
+          "filter": "brightness(0.8) saturate(0.7)"
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": -10
+          },
+          "opacity": 0.5
+        },
+        {
+          "src": "library/land/mountains-far.png",
+          "depth": 0.32,
+          "fit": "cover"
+        },
+        {
+          "src": "library/people/prophet-back.png",
+          "depth": 0.9,
+          "fit": "width",
+          "width": 520,
+          "anchor": "bottom",
+          "offset": {
+            "x": -140,
+            "y": -60
+          },
+          "float": {
+            "amplitude": 4,
+            "speed": 0.25
+          },
+          "enter": {
+            "type": "fade",
+            "duration": 1
+          }
+        }
+      ],
+      "camera": {
+        "preset": "slowZoomOut"
+      },
+      "particles": [
+        {
+          "preset": "dust",
+          "count": 30,
+          "opacity": 0.5
+        }
+      ],
+      "grade": {
+        "tint": "#203a5c",
+        "tintOpacity": 0.28,
+        "tintBlend": "multiply",
+        "vignette": 0.7,
+        "filter": "saturate(0.7)"
+      },
+      "narration": {
+        "text": "Dalam keadaan *marah*, beliau pergi meninggalkan kaumnya menuju lautan.",
+        "audio": "episodes/nabi-yunus/audio/narasi-03.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Dalam keadaan *marah,*",
+            "start": 0.363,
+            "end": 1.738
+          },
+          {
+            "text": "beliau pergi meninggalkan kaumnya",
+            "start": 1.738,
+            "end": 3.288
+          },
+          {
+            "text": "menuju lautan.",
+            "start": 3.288,
+            "end": 4.238
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/wind.mp3",
+          "at": 0,
+          "volume": 0.2,
+          "fadeIn": 0.8,
+          "fadeOut": 1
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "label": "Kapal penuh muatan",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "background": "#05080f",
+      "transitionIn": {
+        "type": "fadeBlack",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "src": "library/sky/storm.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": -60
+          },
+          "opacity": 0.8,
+          "filter": "brightness(0.45)"
+        },
+        {
+          "src": "library/sea/waves-back.png",
+          "depth": 0.6,
+          "drift": {
+            "x": -40
+          },
+          "float": {
+            "amplitude": 18,
+            "speed": 0.35
+          }
+        },
+        {
+          "src": "library/sea/waves-front.png",
+          "depth": 1.3,
+          "drift": {
+            "x": -90
+          },
+          "float": {
+            "amplitude": 26,
+            "speed": 0.45
+          }
+        }
+      ],
+      "camera": {
+        "preset": "orbitDrift",
+        "shake": {
+          "intensity": 8,
+          "speed": 1.2,
+          "rotation": 0.5
+        },
+        "bursts": [
+          {
+            "at": 1.2,
+            "intensity": 38,
+            "duration": 0.8
+          }
+        ]
+      },
+      "particles": [
+        {
+          "preset": "heavyRain",
+          "angle": 8
+        },
+        {
+          "preset": "rain",
+          "count": 80,
+          "layer": "back",
+          "seed": "rain-back"
+        }
+      ],
+      "lights": [
+        {
+          "type": "flash",
+          "at": [
+            1.2
+          ],
+          "intensity": 0.8
+        }
+      ],
+      "grade": {
+        "tint": "#1f3d6b",
+        "tintOpacity": 0.35,
+        "tintBlend": "multiply",
+        "vignette": 0.75
+      },
+      "narration": {
+        "text": "Beliau menaiki kapal yang *penuh muatan*. Di tengah laut, ombak besar mengguncang kapal.",
+        "audio": "episodes/nabi-yunus/audio/narasi-04.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Beliau menaiki kapal yang",
+            "start": 0.35,
+            "end": 1.6
+          },
+          {
+            "text": "*penuh* *muatan.*",
+            "start": 1.6,
+            "end": 3.25
+          },
+          {
+            "text": "Di tengah laut,",
+            "start": 3.25,
+            "end": 4.375
+          },
+          {
+            "text": "ombak besar mengguncang kapal.",
+            "start": 4.375,
+            "end": 5.925
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/rain-loop.mp3",
+          "at": 0,
+          "volume": 0.5,
+          "loop": true,
+          "fadeIn": 0.4,
+          "fadeOut": 0.6
+        },
+        {
+          "src": "library/sfx/thunder.mp3",
+          "at": 1.15,
+          "volume": 0.85
+        },
+        {
+          "src": "library/sfx/waves.mp3",
+          "at": 0,
+          "volume": 0.45,
+          "loop": true,
+          "fadeOut": 0.6
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "label": "Undian",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "background": "#120a10",
+      "transitionIn": {
+        "type": "zoomBlur",
+        "duration": 0.5
+      },
+      "layers": [
+        {
+          "src": "library/sky/storm.webp",
+          "depth": 0.05,
+          "filter": "hue-rotate(-15deg) brightness(0.8)"
+        },
+        {
+          "src": "library/sea/waves-back.png",
+          "depth": 0.6,
+          "drift": {
+            "x": -40
+          },
+          "float": {
+            "amplitude": 18,
+            "speed": 0.35
+          }
+        },
+        {
+          "src": "library/sea/waves-front.png",
+          "depth": 1.3,
+          "drift": {
+            "x": -90
+          },
+          "float": {
+            "amplitude": 26,
+            "speed": 0.45
+          }
+        }
+      ],
+      "camera": {
+        "preset": "dramaticPush",
+        "shake": {
+          "intensity": 5,
+          "speed": 1.5,
+          "rotation": 0.3
+        }
+      },
+      "particles": [
+        {
+          "preset": "embers",
+          "count": 45
+        }
+      ],
+      "lights": [
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 85
+          },
+          "radius": 600,
+          "color": "rgba(255,120,40,1)",
+          "intensity": 0.45
+        }
+      ],
+      "grade": {
+        "tint": "#ff5a1f",
+        "tintOpacity": 0.18,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Undian pun dilakukan. Nama Nabi Yunus yang *keluar*, dan beliau dilemparkan ke laut.",
+        "audio": "episodes/nabi-yunus/audio/narasi-05.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Undian pun dilakukan.",
+            "start": 0.35,
+            "end": 2.55
+          },
+          {
+            "text": "Nama Nabi Yunus yang",
+            "start": 2.55,
+            "end": 3.45
+          },
+          {
+            "text": "*keluar,* dan beliau dilemparkan",
+            "start": 3.45,
+            "end": 5.312
+          },
+          {
+            "text": "ke laut.",
+            "start": 5.312,
+            "end": 5.862
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/whoosh.mp3",
+          "at": 0,
+          "volume": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "label": "Ditelan ikan",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "background": "#02040a",
+      "transitionIn": {
+        "type": "fadeBlack",
+        "duration": 0.8
+      },
+      "layers": [
+        {
+          "src": "library/sky/storm.webp",
+          "depth": 0.05,
+          "filter": "brightness(0.35) saturate(0.6)"
+        }
+      ],
+      "camera": {
+        "preset": "slowZoomIn",
+        "strength": 0.6,
+        "shake": {
+          "intensity": 2,
+          "speed": 0.4
+        }
+      },
+      "particles": [
+        {
+          "preset": "bubbles",
+          "count": 18,
+          "opacity": 0.35,
+          "layer": "back"
+        },
+        {
+          "preset": "dust",
+          "count": 20,
+          "opacity": 0.35,
+          "color": "#9fb8ff"
+        }
+      ],
+      "lights": [
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 55
+          },
+          "radius": 340,
+          "intensity": 0.35,
+          "pulse": 0.3,
+          "pulseSpeed": 0.5
+        }
+      ],
+      "grade": {
+        "tint": "#0b1530",
+        "tintOpacity": 0.5,
+        "tintBlend": "multiply",
+        "vignette": 0.9,
+        "filter": "brightness(0.65)"
+      },
+      "narration": {
+        "text": "Seekor *ikan besar* menelan beliau. Di dalam gelap yang berlapis-lapis, beliau berdoa:",
+        "audio": "episodes/nabi-yunus/audio/narasi-06.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Seekor *ikan* *besar* menelan",
+            "start": 0.35,
+            "end": 1.663
+          },
+          {
+            "text": "beliau.",
+            "start": 1.663,
+            "end": 3.062
+          },
+          {
+            "text": "Di dalam gelap yang",
+            "start": 3.062,
+            "end": 3.85
+          },
+          {
+            "text": "berlapis-lapis, beliau berdoa:",
+            "start": 3.85,
+            "end": 5.925
+          }
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "label": "Doa Nabi Yunus",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "flashWhite",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "src": "library/sky/storm.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": 10
+          },
+          "opacity": 0.5
+        }
+      ],
+      "camera": {
+        "preset": "riseReveal",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "sparkles",
+          "count": 40
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 12
+          },
+          "intensity": 0.6,
+          "rays": 18,
+          "rotateSpeed": 2
+        },
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 12
+          },
+          "radius": 520,
+          "intensity": 0.5
+        }
+      ],
+      "grade": {
+        "tint": "#fff1c4",
+        "tintOpacity": 0.12,
+        "tintBlend": "screen"
+      },
+      "narration": {
+        "text": "*Laa ilaaha illaa anta, subhaanaka, innii kuntu minazh-zhaalimiin.*",
+        "audio": "episodes/nabi-yunus/audio/narasi-07.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "*Laa* *ilaaha* *illaa* *anta,*",
+            "start": 0.35,
+            "end": 2
+          },
+          {
+            "text": "*subhaanaka,* *innii* *kuntu* *minazh-zhaalimiin.*",
+            "start": 2,
+            "end": 4.763
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/chime.mp3",
+          "at": 0.2,
+          "volume": 0.55
+        }
+      ],
+      "overlay": {
+        "title": "لَا إِلٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+        "subtitle": "QS. AL-ANBIYA: 87",
+        "y": 30,
+        "style": "arabic",
+        "start": 0.4
+      }
+    },
+    {
+      "id": "s08",
+      "label": "Diselamatkan",
+      "duration": "auto",
+      "autoPadding": 1.6,
+      "transitionIn": {
+        "type": "circleReveal",
+        "duration": 0.8
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": 10
+          },
+          "opacity": 0.5
+        },
+        {
+          "src": "library/sea/waves-back.png",
+          "depth": 0.6,
+          "drift": {
+            "x": -40
+          },
+          "float": {
+            "amplitude": 18,
+            "speed": 0.35
+          }
+        },
+        {
+          "src": "library/people/prophet-back.png",
+          "depth": 0.9,
+          "fit": "width",
+          "width": 520,
+          "anchor": "bottom",
+          "offset": {
+            "x": -140,
+            "y": -60
+          },
+          "float": {
+            "amplitude": 4,
+            "speed": 0.25
+          },
+          "enter": {
+            "type": "fade",
+            "duration": 1
+          }
+        },
+        {
+          "src": "library/sea/waves-front.png",
+          "depth": 1.3,
+          "drift": {
+            "x": -90
+          },
+          "float": {
+            "amplitude": 26,
+            "speed": 0.45
+          }
+        }
+      ],
+      "camera": {
+        "preset": "panUp",
+        "strength": 0.8
+      },
+      "particles": [
+        {
+          "preset": "fireflies",
+          "count": 26
+        },
+        {
+          "preset": "dust",
+          "count": 35,
+          "seed": "hope-dust"
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 15
+          },
+          "intensity": 0.45
+        },
+        {
+          "type": "lensFlare",
+          "position": {
+            "x": 50,
+            "y": 15
+          },
+          "intensity": 0.3
+        }
+      ],
+      "grade": {
+        "tint": "#ffcf8a",
+        "tintOpacity": 0.15,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Allah *menyelamatkan* beliau, dan kaumnya akhirnya beriman. Jangan pernah berhenti berdoa.",
+        "audio": "episodes/nabi-yunus/audio/narasi-08.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Allah *menyelamatkan* beliau,",
+            "start": 0.35,
+            "end": 2.025
+          },
+          {
+            "text": "dan kaumnya akhirnya beriman.",
+            "start": 2.025,
+            "end": 4.45
+          },
+          {
+            "text": "Jangan pernah berhenti berdoa.",
+            "start": 4.45,
+            "end": 6.225
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/chime.mp3",
+          "at": 0.3,
+          "volume": 0.45
+        }
+      ],
+      "overlay": {
+        "title": "Ikuti untuk kisah berikutnya",
+        "y": 22,
+        "style": "cta",
+        "start": 5.69
+      }
+    }
+  ],
+  "_source": {
+    "draft": "pipeline/drafts/nabi-yunus.json",
+    "references": [
+      "QS. Al-Anbiya: 87-88 (pergi dalam keadaan marah, doa di dalam kegelapan)",
+      "QS. As-Saffat: 139-148 (kapal penuh muatan, undian, ditelan ikan, dicampakkan ke daratan, pohon labu, kaum beriman)",
+      "QS. Yunus: 98 (kaum Nabi Yunus beriman dan azab diangkat)",
+      "QS. Al-Qalam: 48-50",
+      "Nama negeri Ninawa: Sirah Ibnu Hisyam (kisah 'Addas) — PERLU DICEK"
+    ],
+    "reviewed": false
+  }
+}

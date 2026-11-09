@@ -1,0 +1,95 @@
+{
+  "slug": "nabi-sulaiman-semut",
+  "title": "Nabi Sulaiman & Semut",
+  "subtitle": "PELAJARAN DARI LEMBAH SEMUT",
+  "references": [
+    "QS. An-Naml: 15-16 (Sulaiman mewarisi Daud, diajari bahasa burung, dianugerahi segala sesuatu)",
+    "QS. An-Naml: 17 (bala tentara jin, manusia, dan burung, diatur dengan tertib)",
+    "QS. An-Naml: 18 (lembah semut; seruan semut: masuklah ke sarang, agar tidak terinjak, sedang mereka tidak menyadari)",
+    "QS. An-Naml: 19 (Sulaiman tersenyum lalu tertawa, dan berdoa: Rabbi auzi'ni an asykura ni'matak)"
+  ],
+  "reviewed": false,
+  "scenes": [
+    {
+      "label": "Pembuka",
+      "narration": "Seekor semut kecil pernah membuat seorang nabi *tersenyum*. Inilah kisah Nabi Sulaiman alaihissalam.",
+      "mood": "calm",
+      "sky": "dawn",
+      "place": ["mountains"],
+      "figures": [],
+      "props": [{ "file": "semut.png", "layer": { "depth": 1.1, "width": 760, "anchor": "bottom", "offset": { "y": -160 }, "float": { "amplitude": 3, "speed": 0.6 } } }],
+      "visual": "A single small ant silhouette on the ground in the foreground, a wide valley at dawn behind it."
+    },
+    {
+      "label": "Anugerah kerajaan",
+      "narration": "Allah menganugerahkan kepada Nabi Sulaiman kerajaan yang besar dan *bahasa burung*.",
+      "mood": "divine",
+      "sky": "dawn",
+      "place": ["city"],
+      "figures": ["prophet"],
+      "props": [],
+      "visual": "A grand ancient city at sunrise with birds in the sky, a faceless royal silhouette seen from behind."
+    },
+    {
+      "label": "Bala tentara",
+      "narration": "Bala tentaranya dari jin, manusia, dan burung berbaris dengan *tertib*.",
+      "mood": "calm",
+      "sky": "dawn",
+      "place": ["mountains"],
+      "figures": [],
+      "props": [{ "file": "pasukan.png", "layer": { "depth": 1.1, "width": 1400, "anchor": "bottom", "offset": { "y": 0 }, "drift": { "x": 30 }, "float": { "amplitude": 2, "speed": 1.5 } } }],
+      "visual": "A long orderly procession of faceless human silhouettes with banners and horses marching through a valley, birds flying above. No jinn depicted."
+    },
+    {
+      "label": "Lembah semut",
+      "narration": "Ketika tiba di sebuah *lembah semut*, seekor semut berseru kepada kaumnya:",
+      "mood": "tense",
+      "sky": "dusk",
+      "place": ["mountains"],
+      "figures": [],
+      "props": [{ "file": "semut.png", "layer": { "depth": 1.1, "width": 760, "anchor": "bottom", "offset": { "y": -160 }, "float": { "amplitude": 3, "speed": 0.6 } } }],
+      "visual": "The ant silhouette on a rock calling out, many tiny ant silhouettes in the valley floor."
+    },
+    {
+      "label": "Seruan semut",
+      "narration": "Masuklah ke sarang kalian, agar tidak *terinjak* Sulaiman dan tentaranya, sedang mereka tidak menyadari.",
+      "mood": "tense",
+      "sky": "dusk",
+      "place": [],
+      "figures": [],
+      "props": [{ "file": "semut.png", "layer": { "depth": 1, "width": 1000, "anchor": "bottom", "offset": { "y": -220 }, "float": { "amplitude": 4, "speed": 0.8 } } }],
+      "visual": "Close-up of the ant silhouette, the shadow of a huge marching army approaching from afar."
+    },
+    {
+      "label": "Sulaiman tersenyum",
+      "narration": "Nabi Sulaiman *tersenyum* mendengar perkataan semut itu, lalu beliau berdoa:",
+      "mood": "calm",
+      "sky": "dawn",
+      "place": ["mountains"],
+      "figures": ["prophet"],
+      "props": [{ "file": "semut.png", "layer": { "depth": 1.15, "width": 520, "anchor": "bottom", "offset": { "x": 220, "y": -120 }, "float": { "amplitude": 3, "speed": 0.6 } } }],
+      "visual": "A faceless royal silhouette seen from behind looking down at a tiny ant on the ground, warm light."
+    },
+    {
+      "label": "Doa syukur",
+      "narration": "Ya Tuhanku, ilhamkan aku untuk *mensyukuri* nikmat-Mu dan beramal saleh yang Engkau ridai.",
+      "mood": "divine",
+      "sky": "dawn",
+      "place": [],
+      "figures": [],
+      "props": [],
+      "visual": "Soft divine light rays in a golden sky.",
+      "overlay": { "title": "رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ", "subtitle": "QS. AN-NAML: 19", "y": 30, "style": "arabic", "start": 0.4 }
+    },
+    {
+      "label": "Pelajaran",
+      "narration": "Semut yang kecil peduli pada kaumnya, nabi yang besar tetap *bersyukur*. Mana yang sudah kita teladani?",
+      "mood": "hope",
+      "sky": "dawn",
+      "place": ["mountains"],
+      "figures": ["prophet"],
+      "props": [],
+      "visual": "A faceless silhouette seen from behind on a hill at sunrise, hopeful light."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+ "hash": "4606e2fe0444",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 6.557,
+ "text": "Seekor *ikan besar* menelan beliau. Di dalam gelap yang berlapis-lapis, beliau berdoa:",
+ "spoken": "Seekor ikan besar menelan beliau. Di dalam gelap yang berlapis-lapis, beliau berdoa:",
+ "words": [
+  {
+   "text": "Seekor",
+   "highlight": false,
+   "start": 0.1,
+   "end": 0.55
+  },
+  {
+   "text": "ikan",
+   "highlight": true,
+   "start": 0.55,
+   "end": 0.788
+  },
+  {
+   "text": "besar",
+   "highlight": true,
+   "start": 0.787,
+   "end": 1.087
+  },
+  {
+   "text": "menelan",
+   "highlight": false,
+   "start": 1.087,
+   "end": 1.412
+  },
+  {
+   "text": "beliau.",
+   "highlight": false,
+   "start": 1.413,
+   "end": 1.975
+  },
+  {
+   "text": "Di",
+   "highlight": false,
+   "start": 2.812,
+   "end": 2.987
+  },
+  {
+   "text": "dalam",
+   "highlight": false,
+   "start": 2.987,
+   "end": 3.225
+  },
+  {
+   "text": "gelap",
+   "highlight": false,
+   "start": 3.225,
+   "end": 3.475
+  },
+  {
+   "text": "yang",
+   "highlight": false,
+   "start": 3.475,
+   "end": 3.6
+  },
+  {
+   "text": "berlapis-lapis,",
+   "highlight": false,
+   "start": 3.6,
+   "end": 4.475
+  },
+  {
+   "text": "beliau",
+   "highlight": false,
+   "start": 4.675,
+   "end": 5.037
+  },
+  {
+   "text": "berdoa:",
+   "highlight": false,
+   "start": 5.037,
+   "end": 5.675
+  }
+ ]
+}

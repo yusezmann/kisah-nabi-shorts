@@ -1,0 +1,9 @@
+node_modules
+out
+.DS_Store
+*.log
+.env
+pipeline/samples
+pipeline/drafts/*.prompt.txt
+pipeline/drafts/*.raw.txt
+graphify-out

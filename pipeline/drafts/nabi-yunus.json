@@ -1,0 +1,96 @@
+{
+  "slug": "nabi-yunus",
+  "title": "Kisah Nabi Yunus AS",
+  "subtitle": "DOA DARI KEGELAPAN",
+  "references": [
+    "QS. Al-Anbiya: 87-88 (pergi dalam keadaan marah, doa di dalam kegelapan)",
+    "QS. As-Saffat: 139-148 (kapal penuh muatan, undian, ditelan ikan, dicampakkan ke daratan, pohon labu, kaum beriman)",
+    "QS. Yunus: 98 (kaum Nabi Yunus beriman dan azab diangkat)",
+    "QS. Al-Qalam: 48-50",
+    "Nama negeri Ninawa: Sirah Ibnu Hisyam (kisah 'Addas) — PERLU DICEK"
+  ],
+  "reviewed": false,
+  "scenes": [
+    {
+      "label": "Pembuka",
+      "narration": "Pernahkah kamu membayangkan berdoa dari dalam *perut ikan*? Inilah kisah Nabi Yunus alaihissalam.",
+      "mood": "calm",
+      "sky": "dusk",
+      "place": ["sea"],
+      "figures": [],
+      "props": [],
+      "visual": "Calm evening sea under a purple and orange dusk sky."
+    },
+    {
+      "label": "Kaum menolak",
+      "narration": "Beliau diutus kepada kaum Ninawa, namun mereka terus *menolak* ajakan menyembah Allah.",
+      "mood": "tense",
+      "sky": "dusk",
+      "place": ["village"],
+      "figures": ["prophet", "crowd"],
+      "props": [],
+      "visual": "An ancient city with a faceless prophet silhouette seen from behind facing a crowd."
+    },
+    {
+      "label": "Pergi dalam marah",
+      "narration": "Dalam keadaan *marah*, beliau pergi meninggalkan kaumnya menuju lautan.",
+      "mood": "sad",
+      "sky": "dusk",
+      "place": ["mountains"],
+      "figures": ["prophet"],
+      "props": [],
+      "visual": "A lone faceless prophet silhouette walking away toward distant hills at dusk."
+    },
+    {
+      "label": "Kapal penuh muatan",
+      "narration": "Beliau menaiki kapal yang *penuh muatan*. Di tengah laut, ombak besar mengguncang kapal.",
+      "mood": "storm",
+      "sky": "storm",
+      "place": ["sea"],
+      "figures": [],
+      "props": ["kapal.png"],
+      "visual": "A heavily loaded ancient wooden sailing ship tossed by big waves, side view silhouette."
+    },
+    {
+      "label": "Undian",
+      "narration": "Undian pun dilakukan. Nama Nabi Yunus yang *keluar*, dan beliau dilemparkan ke laut.",
+      "mood": "tense",
+      "sky": "storm",
+      "place": ["sea"],
+      "figures": [],
+      "props": ["kapal.png"],
+      "visual": "The ancient ship on a dark stormy sea, a small faceless figure falling into the waves."
+    },
+    {
+      "label": "Ditelan ikan",
+      "narration": "Seekor *ikan besar* menelan beliau. Di dalam gelap yang berlapis-lapis, beliau berdoa:",
+      "mood": "dark",
+      "sky": "night",
+      "place": [],
+      "figures": [],
+      "props": ["ikan-besar.png"],
+      "visual": "A giant fish silhouette swimming in the deep dark sea, faint light from above."
+    },
+    {
+      "label": "Doa Nabi Yunus",
+      "narration": "*Laa ilaaha illaa anta, subhaanaka, innii kuntu minazh-zhaalimiin.*",
+      "mood": "divine",
+      "sky": "night",
+      "place": [],
+      "figures": [],
+      "props": [],
+      "visual": "Soft divine light rays shining in deep darkness.",
+      "overlay": { "title": "لَا إِلٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ", "subtitle": "QS. AL-ANBIYA: 87", "y": 30, "style": "arabic", "start": 0.4 }
+    },
+    {
+      "label": "Diselamatkan",
+      "narration": "Allah *menyelamatkan* beliau, dan kaumnya akhirnya beriman. Jangan pernah berhenti berdoa.",
+      "mood": "hope",
+      "sky": "dawn",
+      "place": ["sea"],
+      "figures": ["prophet"],
+      "props": ["pohon-labu.png"],
+      "visual": "A faceless prophet silhouette resting on a quiet shore under a leafy gourd vine at dawn."
+    }
+  ]
+}

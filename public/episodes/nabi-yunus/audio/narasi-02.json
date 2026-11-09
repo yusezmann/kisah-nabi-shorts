@@ -1,0 +1,81 @@
+{
+ "hash": "d2c73899c1ce",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 5.59,
+ "text": "Beliau diutus kepada kaum Ninawa, namun mereka terus *menolak* ajakan menyembah Allah.",
+ "spoken": "Beliau diutus kepada kaum niinawa, namun mereka terus menolak ajakan menyembah Allah.",
+ "words": [
+  {
+   "text": "Beliau",
+   "highlight": false,
+   "start": 0.113,
+   "end": 0.462
+  },
+  {
+   "text": "diutus",
+   "highlight": false,
+   "start": 0.463,
+   "end": 0.838
+  },
+  {
+   "text": "kepada",
+   "highlight": false,
+   "start": 0.838,
+   "end": 1.15
+  },
+  {
+   "text": "kaum",
+   "highlight": false,
+   "start": 1.15,
+   "end": 1.387
+  },
+  {
+   "text": "Ninawa,",
+   "highlight": false,
+   "start": 1.387,
+   "end": 2.062
+  },
+  {
+   "text": "namun",
+   "highlight": false,
+   "start": 2.362,
+   "end": 2.65
+  },
+  {
+   "text": "mereka",
+   "highlight": false,
+   "start": 2.65,
+   "end": 2.913
+  },
+  {
+   "text": "terus",
+   "highlight": false,
+   "start": 2.913,
+   "end": 3.163
+  },
+  {
+   "text": "menolak",
+   "highlight": true,
+   "start": 3.163,
+   "end": 3.45
+  },
+  {
+   "text": "ajakan",
+   "highlight": false,
+   "start": 3.45,
+   "end": 3.838
+  },
+  {
+   "text": "menyembah",
+   "highlight": false,
+   "start": 3.837,
+   "end": 4.175
+  },
+  {
+   "text": "Allah.",
+   "highlight": false,
+   "start": 4.175,
+   "end": 4.688
+  }
+ ]
+}

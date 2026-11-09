@@ -1,0 +1,828 @@
+{
+  "id": "NabiAdam",
+  "title": "Kisah Nabi Adam AS",
+  "subtitle": "MANUSIA PERTAMA",
+  "targetDurationSeconds": null,
+  "music": {
+    "src": "library/music/ambient-01.mp3",
+    "volume": 0.35,
+    "fadeIn": 1.5,
+    "fadeOut": 2.5,
+    "duckTo": 0.4
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "label": "Pembuka",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.8
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": 10
+          },
+          "opacity": 0.5
+        }
+      ],
+      "camera": {
+        "preset": "riseReveal",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "sparkles",
+          "count": 40
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 12
+          },
+          "intensity": 0.6,
+          "rays": 18,
+          "rotateSpeed": 2
+        },
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 12
+          },
+          "radius": 520,
+          "intensity": 0.5
+        }
+      ],
+      "grade": {
+        "tint": "#fff1c4",
+        "tintOpacity": 0.12,
+        "tintBlend": "screen"
+      },
+      "narration": {
+        "text": "Siapakah manusia pertama di muka bumi? Inilah kisah Nabi Adam *alaihissalam*.",
+        "audio": "episodes/nabi-adam/audio/narasi-01.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Siapakah manusia pertama di",
+            "start": 0.35,
+            "end": 1.775
+          },
+          {
+            "text": "muka bumi?",
+            "start": 1.775,
+            "end": 3.3
+          },
+          {
+            "text": "Inilah kisah Nabi Adam *alaihissalam.*",
+            "start": 3.3,
+            "end": 5.462
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/chime.mp3",
+          "at": 0.2,
+          "volume": 0.55
+        }
+      ],
+      "overlay": {
+        "title": "Kisah Nabi Adam AS",
+        "subtitle": "MANUSIA PERTAMA",
+        "y": 26,
+        "style": "hero",
+        "start": 0.3
+      }
+    },
+    {
+      "id": "s02",
+      "label": "Khalifah di bumi",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "flashWhite",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": 10
+          },
+          "opacity": 0.5
+        },
+        {
+          "src": "library/land/mountains-far.png",
+          "depth": 0.32,
+          "fit": "cover"
+        }
+      ],
+      "camera": {
+        "preset": "riseReveal",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "sparkles",
+          "count": 40
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 12
+          },
+          "intensity": 0.6,
+          "rays": 18,
+          "rotateSpeed": 2
+        },
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 12
+          },
+          "radius": 520,
+          "intensity": 0.5
+        }
+      ],
+      "grade": {
+        "tint": "#fff1c4",
+        "tintOpacity": 0.12,
+        "tintBlend": "screen"
+      },
+      "narration": {
+        "text": "Allah berfirman kepada para malaikat: Aku hendak menjadikan *khalifah* di bumi.",
+        "audio": "episodes/nabi-adam/audio/narasi-02.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Allah berfirman kepada para",
+            "start": 0.35,
+            "end": 1.488
+          },
+          {
+            "text": "malaikat: Aku hendak menjadikan",
+            "start": 1.488,
+            "end": 3.337
+          },
+          {
+            "text": "*khalifah* di bumi.",
+            "start": 3.337,
+            "end": 4.288
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/chime.mp3",
+          "at": 0.2,
+          "volume": 0.55
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "label": "Diciptakan dari tanah",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "crossfade",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": -15
+          },
+          "opacity": 0.7
+        },
+        {
+          "src": "library/land/mountains-far.png",
+          "depth": 0.32,
+          "fit": "cover"
+        },
+        {
+          "src": "library/people/prophet-back.png",
+          "depth": 0.9,
+          "fit": "width",
+          "width": 520,
+          "anchor": "bottom",
+          "offset": {
+            "x": -140,
+            "y": -60
+          },
+          "float": {
+            "amplitude": 4,
+            "speed": 0.25
+          },
+          "enter": {
+            "type": "fade",
+            "duration": 1
+          }
+        }
+      ],
+      "camera": {
+        "preset": "slowZoomIn",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "dust",
+          "count": 50
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 22
+          },
+          "intensity": 0.4,
+          "rays": 14
+        }
+      ],
+      "grade": {
+        "tint": "#ffb070",
+        "tintOpacity": 0.12,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Adam diciptakan dari tanah, lalu Allah mengajarkan kepadanya *nama-nama* segala sesuatu.",
+        "audio": "episodes/nabi-adam/audio/narasi-03.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Adam diciptakan dari tanah,",
+            "start": 0.363,
+            "end": 2.1
+          },
+          {
+            "text": "lalu Allah mengajarkan kepadanya",
+            "start": 2.1,
+            "end": 3.638
+          },
+          {
+            "text": "*nama-nama* segala sesuatu.",
+            "start": 3.638,
+            "end": 5.125
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/wind.mp3",
+          "at": 0,
+          "volume": 0.25,
+          "fadeIn": 0.5,
+          "fadeOut": 1
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "label": "Iblis sombong",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "background": "#120a10",
+      "transitionIn": {
+        "type": "zoomBlur",
+        "duration": 0.5
+      },
+      "layers": [
+        {
+          "src": "library/sky/storm.webp",
+          "depth": 0.05,
+          "filter": "hue-rotate(-15deg) brightness(0.8)"
+        }
+      ],
+      "camera": {
+        "preset": "dramaticPush",
+        "shake": {
+          "intensity": 5,
+          "speed": 1.5,
+          "rotation": 0.3
+        }
+      },
+      "particles": [
+        {
+          "preset": "embers",
+          "count": 45
+        }
+      ],
+      "lights": [
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 85
+          },
+          "radius": 600,
+          "color": "rgba(255,120,40,1)",
+          "intensity": 0.45
+        }
+      ],
+      "grade": {
+        "tint": "#ff5a1f",
+        "tintOpacity": 0.18,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Semua malaikat sujud kepada Adam, kecuali *Iblis*. Ia sombong: aku dari api, dia dari tanah.",
+        "audio": "episodes/nabi-adam/audio/narasi-04.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Semua malaikat sujud kepada",
+            "start": 0.35,
+            "end": 1.7
+          },
+          {
+            "text": "Adam, kecuali *Iblis.*",
+            "start": 1.7,
+            "end": 4.287
+          },
+          {
+            "text": "Ia sombong:",
+            "start": 4.287,
+            "end": 5.338
+          },
+          {
+            "text": "aku dari api,",
+            "start": 5.338,
+            "end": 6.487
+          },
+          {
+            "text": "dia dari tanah.",
+            "start": 6.487,
+            "end": 7.438
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/whoosh.mp3",
+          "at": 0,
+          "volume": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "label": "Larangan satu pohon",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "crossfade",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": -15
+          },
+          "opacity": 0.7
+        },
+        {
+          "src": "library/people/prophet-back.png",
+          "depth": 0.9,
+          "fit": "width",
+          "width": 520,
+          "anchor": "bottom",
+          "offset": {
+            "x": -140,
+            "y": -60
+          },
+          "float": {
+            "amplitude": 4,
+            "speed": 0.25
+          },
+          "enter": {
+            "type": "fade",
+            "duration": 1
+          }
+        }
+      ],
+      "camera": {
+        "preset": "slowZoomIn",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "dust",
+          "count": 50
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 22
+          },
+          "intensity": 0.4,
+          "rays": 14
+        }
+      ],
+      "grade": {
+        "tint": "#ffb070",
+        "tintOpacity": 0.12,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Adam dan istrinya tinggal di surga, dan dilarang mendekati *satu pohon*.",
+        "audio": "episodes/nabi-adam/audio/narasi-05.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Adam dan istrinya tinggal",
+            "start": 0.363,
+            "end": 1.538
+          },
+          {
+            "text": "di surga,",
+            "start": 1.538,
+            "end": 2.475
+          },
+          {
+            "text": "dan dilarang mendekati *satu* *pohon.*",
+            "start": 2.475,
+            "end": 4.212
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/wind.mp3",
+          "at": 0,
+          "volume": 0.25,
+          "fadeIn": 0.5,
+          "fadeOut": 1
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "label": "Bisikan setan",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.8
+      },
+      "layers": [
+        {
+          "src": "library/sky/dusk.webp",
+          "depth": 0.05,
+          "filter": "brightness(0.8) saturate(0.7)"
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": -10
+          },
+          "opacity": 0.5
+        },
+        {
+          "src": "library/people/prophet-back.png",
+          "depth": 0.9,
+          "fit": "width",
+          "width": 520,
+          "anchor": "bottom",
+          "offset": {
+            "x": -140,
+            "y": -60
+          },
+          "float": {
+            "amplitude": 4,
+            "speed": 0.25
+          },
+          "enter": {
+            "type": "fade",
+            "duration": 1
+          }
+        }
+      ],
+      "camera": {
+        "preset": "slowZoomOut"
+      },
+      "particles": [
+        {
+          "preset": "dust",
+          "count": 30,
+          "opacity": 0.5
+        }
+      ],
+      "grade": {
+        "tint": "#203a5c",
+        "tintOpacity": 0.28,
+        "tintBlend": "multiply",
+        "vignette": 0.7,
+        "filter": "saturate(0.7)"
+      },
+      "narration": {
+        "text": "Setan terus membisikkan tipu daya, hingga keduanya *tergelincir* memakan buahnya.",
+        "audio": "episodes/nabi-adam/audio/narasi-06.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Setan terus membisikkan tipu",
+            "start": 0.363,
+            "end": 1.65
+          },
+          {
+            "text": "daya, hingga keduanya *tergelincir*",
+            "start": 1.65,
+            "end": 3.7
+          },
+          {
+            "text": "memakan buahnya.",
+            "start": 3.7,
+            "end": 4.65
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/wind.mp3",
+          "at": 0,
+          "volume": 0.2,
+          "fadeIn": 0.8,
+          "fadeOut": 1
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "label": "Doa taubat",
+      "duration": "auto",
+      "autoPadding": 0.6,
+      "transitionIn": {
+        "type": "flashWhite",
+        "duration": 0.6
+      },
+      "layers": [
+        {
+          "src": "library/sky/storm.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": 10
+          },
+          "opacity": 0.5
+        }
+      ],
+      "camera": {
+        "preset": "riseReveal",
+        "easing": "easeInOutSine"
+      },
+      "particles": [
+        {
+          "preset": "sparkles",
+          "count": 40
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 12
+          },
+          "intensity": 0.6,
+          "rays": 18,
+          "rotateSpeed": 2
+        },
+        {
+          "type": "glow",
+          "position": {
+            "x": 50,
+            "y": 12
+          },
+          "radius": 520,
+          "intensity": 0.5
+        }
+      ],
+      "grade": {
+        "tint": "#fff1c4",
+        "tintOpacity": 0.12,
+        "tintBlend": "screen"
+      },
+      "narration": {
+        "text": "*Rabbanaa zhalamnaa anfusanaa*. Ya Tuhan kami, kami telah menzalimi diri kami sendiri.",
+        "audio": "episodes/nabi-adam/audio/narasi-07.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "*Rabbanaa* *zhalamnaa* *anfusanaa.*",
+            "start": 0.35,
+            "end": 3.188
+          },
+          {
+            "text": "Ya Tuhan kami,",
+            "start": 3.188,
+            "end": 4.463
+          },
+          {
+            "text": "kami telah menzalimi diri",
+            "start": 4.463,
+            "end": 5.638
+          },
+          {
+            "text": "kami sendiri.",
+            "start": 5.638,
+            "end": 6.413
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/chime.mp3",
+          "at": 0.2,
+          "volume": 0.55
+        }
+      ],
+      "overlay": {
+        "title": "رَبَّنَا ظَلَمْنَا أَنْفُسَنَا",
+        "subtitle": "QS. AL-A'RAF: 23",
+        "y": 30,
+        "style": "arabic",
+        "start": 0.4
+      }
+    },
+    {
+      "id": "s08",
+      "label": "Taubat diterima",
+      "duration": "auto",
+      "autoPadding": 1.6,
+      "transitionIn": {
+        "type": "circleReveal",
+        "duration": 0.8
+      },
+      "layers": [
+        {
+          "src": "library/sky/dawn.webp",
+          "depth": 0.05
+        },
+        {
+          "src": "library/atmo/clouds.png",
+          "depth": 0.15,
+          "drift": {
+            "x": 10
+          },
+          "opacity": 0.5
+        },
+        {
+          "src": "library/land/mountains-far.png",
+          "depth": 0.32,
+          "fit": "cover"
+        },
+        {
+          "src": "library/people/prophet-back.png",
+          "depth": 0.9,
+          "fit": "width",
+          "width": 520,
+          "anchor": "bottom",
+          "offset": {
+            "x": -140,
+            "y": -60
+          },
+          "float": {
+            "amplitude": 4,
+            "speed": 0.25
+          },
+          "enter": {
+            "type": "fade",
+            "duration": 1
+          }
+        }
+      ],
+      "camera": {
+        "preset": "panUp",
+        "strength": 0.8
+      },
+      "particles": [
+        {
+          "preset": "fireflies",
+          "count": 26
+        },
+        {
+          "preset": "dust",
+          "count": 35,
+          "seed": "hope-dust"
+        }
+      ],
+      "lights": [
+        {
+          "type": "godRays",
+          "origin": {
+            "x": 50,
+            "y": 15
+          },
+          "intensity": 0.45
+        },
+        {
+          "type": "lensFlare",
+          "position": {
+            "x": 50,
+            "y": 15
+          },
+          "intensity": 0.3
+        }
+      ],
+      "grade": {
+        "tint": "#ffcf8a",
+        "tintOpacity": 0.15,
+        "tintBlend": "soft-light"
+      },
+      "narration": {
+        "text": "Allah *menerima taubat* mereka, lalu keduanya diturunkan ke bumi. Jangan ragu kembali kepada-Nya.",
+        "audio": "episodes/nabi-adam/audio/narasi-08.mp3",
+        "delay": 0.25,
+        "cues": [
+          {
+            "text": "Allah *menerima* *taubat* mereka,",
+            "start": 0.35,
+            "end": 2.163
+          },
+          {
+            "text": "lalu keduanya diturunkan ke",
+            "start": 2.163,
+            "end": 3.4
+          },
+          {
+            "text": "bumi.",
+            "start": 3.4,
+            "end": 4.7
+          },
+          {
+            "text": "Jangan ragu kembali kepada-Nya.",
+            "start": 4.7,
+            "end": 6.45
+          }
+        ]
+      },
+      "sfx": [
+        {
+          "src": "library/sfx/chime.mp3",
+          "at": 0.3,
+          "volume": 0.45
+        }
+      ],
+      "overlay": {
+        "title": "Ikuti untuk kisah berikutnya",
+        "y": 22,
+        "style": "cta",
+        "start": 5.96
+      }
+    }
+  ],
+  "_source": {
+    "draft": "pipeline/drafts/nabi-adam.json",
+    "references": [
+      "QS. Al-Baqarah: 30-38 (khalifah di bumi, diajari nama-nama, sujud malaikat, Iblis enggan, tinggal di surga, larangan pohon, taubat diterima, diturunkan ke bumi)",
+      "QS. Al-A'raf: 11-25 (Iblis: aku lebih baik, diciptakan dari api; bisikan setan; doa Rabbana zhalamna anfusana)",
+      "QS. Al-Hijr: 26-33 (diciptakan dari tanah liat)",
+      "QS. Thaha: 115-123",
+      "QS. Shad: 71-76"
+    ],
+    "reviewed": false
+  }
+}

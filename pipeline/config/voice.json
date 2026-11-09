@@ -1,0 +1,8 @@
+{
+  "voice": "id-ID-ArdiNeural",
+  "rate": "+0%",
+  "pitch": "+0Hz",
+  "loudness": -16,
+  "_alternatives": ["id-ID-ArdiNeural", "id-ID-GadisNeural"],
+  "_note": "Jalankan `npm run voice:samples` untuk membandingkan suara, lalu kunci satu suara untuk seluruh seri."
+}

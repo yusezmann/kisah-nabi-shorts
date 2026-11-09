@@ -1,0 +1,75 @@
+{
+ "hash": "a8ffce2e200c",
+ "voice": "id-ID-ArdiNeural",
+ "duration": 6.087,
+ "text": "Siapakah manusia pertama di muka bumi? Inilah kisah Nabi Adam *alaihissalam*.",
+ "spoken": "Siapakah manusia pertama di muka bumi? Inilah kisah Nabi Adam alaihis-salam.",
+ "words": [
+  {
+   "text": "Siapakah",
+   "highlight": false,
+   "start": 0.1,
+   "end": 0.662
+  },
+  {
+   "text": "manusia",
+   "highlight": false,
+   "start": 0.662,
+   "end": 1.025
+  },
+  {
+   "text": "pertama",
+   "highlight": false,
+   "start": 1.025,
+   "end": 1.438
+  },
+  {
+   "text": "di",
+   "highlight": false,
+   "start": 1.438,
+   "end": 1.525
+  },
+  {
+   "text": "muka",
+   "highlight": false,
+   "start": 1.525,
+   "end": 1.737
+  },
+  {
+   "text": "bumi?",
+   "highlight": false,
+   "start": 1.738,
+   "end": 2.212
+  },
+  {
+   "text": "Inilah",
+   "highlight": false,
+   "start": 3.05,
+   "end": 3.45
+  },
+  {
+   "text": "kisah",
+   "highlight": false,
+   "start": 3.45,
+   "end": 3.725
+  },
+  {
+   "text": "Nabi",
+   "highlight": false,
+   "start": 3.725,
+   "end": 4.025
+  },
+  {
+   "text": "Adam",
+   "highlight": false,
+   "start": 4.025,
+   "end": 4.35
+  },
+  {
+   "text": "alaihissalam.",
+   "highlight": true,
+   "start": 4.35,
+   "end": 5.212
+  }
+ ]
+}
